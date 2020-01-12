@@ -2,3 +2,4 @@
 langStack/golang/
 langStack/powercli
 #memo
+*.sublime-project

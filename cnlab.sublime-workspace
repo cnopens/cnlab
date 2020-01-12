@@ -1,0 +1,681 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ht",
+				"http-equiv	Attr"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"ser",
+				"servers"
+			],
+			[
+				"me",
+				"MemberFriendApplyService"
+			],
+			[
+				"I",
+				"IMemberFriendAppService"
+			],
+			[
+				"m",
+				"memberFriendApply"
+			],
+			[
+				"M",
+				"MemberGalleryRowMaper"
+			],
+			[
+				"fro",
+				"frameworks"
+			],
+			[
+				"Se",
+				"SELECT"
+			],
+			[
+				"get",
+				"getString"
+			],
+			[
+				"ac",
+				"activityInterested"
+			],
+			[
+				"pa",
+				"pageSize"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"activi",
+				"activityList"
+			],
+			[
+				"toal",
+				"totalPage"
+			],
+			[
+				"setpage",
+				"setPageCount"
+			],
+			[
+				"pagi",
+				"pagingList"
+			],
+			[
+				"setC",
+				"setCurPage"
+			],
+			[
+				"page",
+				"pageSize"
+			],
+			[
+				"to",
+				"totalCount"
+			],
+			[
+				"tota",
+				"totalCount"
+			],
+			[
+				"Act",
+				"Activity"
+			],
+			[
+				"Ac",
+				"ActivityQueryRowMapper"
+			],
+			[
+				"cou",
+				"countSql"
+			],
+			[
+				"quer",
+				"queryForInt"
+			],
+			[
+				"count",
+				"count"
+			],
+			[
+				"el",
+				"elementFromPoint"
+			],
+			[
+				"a",
+				"assert"
+			],
+			[
+				"s",
+				"ttwf-reftest-tutorial-starter-ref"
+			],
+			[
+				"e",
+				"exampleHeight"
+			],
+			[
+				"as",
+				"assert_true"
+			],
+			[
+				"test",
+				"test"
+			],
+			[
+				"do",
+				"document"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 106.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: Pig"
+			],
+			[
+				"console",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"Package Control:re",
+				"Package Control: Remove Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/daydaycode/nodejs_workspapce/demo1/app.js",
+		"/D/daydaycode/nodejs_workspapce/demo1/demo1.js",
+		"/D/daydaycode/nodejs_workspapce/demo1/readme.md",
+		"/D/daydaycode/js_toollib_workspace/backbone_demo/readme.md",
+		"/D/daydaycode/js_toollib_workspace/backbone_demo/js/main.js",
+		"/D/daydaycode/angularjs_workspace/angular-learning/demo5-directives.html",
+		"/E/CooperationPro/[2015]首经贸二期项目/账号/团委项目三期处理记录20150606.txt",
+		"/E/CooperationPro/[2015]首经贸二期项目/20150719-sjmtwgl/7.17日与周老师核对剩余问题.txt",
+		"/C/Users/Administrator/Desktop/uvpcoll.sh",
+		"/E/CooperationPro/[2015]首经贸二期项目/团委项目三期处理记录20150606.txt",
+		"/D/java_lab/myjavanote/myjavanote.sublime-project",
+		"/D/java_lab/myjavanote/src/main/java/com/cnopens/app/HttpURLConnectionExample.java",
+		"/D/java_lab/myjavanote/src/Sqlerver特殊查询.md",
+		"/D/devtools/Sublime Text3/sublime.py",
+		"/C/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PrivateAssemblies/readme.txt",
+		"/D/java_lab/myjavanote/src/main/webapp/index.jsp",
+		"/D/java_lab/myjavanote/.idea/libraries/Maven__org_apache_tomcat_servlet_api_6_0_41.xml",
+		"/C/Users/Administrator/Desktop/ITDA登录抓包.txt",
+		"/D/Company/gwcc/自动化任务及审计协助说明.txt",
+		"/E/[2012][AAA]云计算/new focus/[2012-2015]计划文档夹/note.txt",
+		"/E/项目工作夹/国睿项目/[2015]国家电网-云资源管理/汇聚层&&审计开发需求变更.txt",
+		"/E/[2015]BMC-Cloud/TOOLS/mccomp_cmd.txt",
+		"/E/个人文档夹/[AAA]车辆知识/开车坏习惯.txt",
+		"/E/[2012][AAA]云计算/new focus/[2012-2015]计划文档夹/Sublime2 快捷键 windows.txt",
+		"/D/Company/opmanager/Aerospace nine homes/style/common.css",
+		"/E/[2012][AAA]云计算/new focus/[2012-2015]计划文档夹/VIM视窗操作简介",
+		"/D/java_lab/myjavanote/.idea/vcs.xml",
+		"/E/labroom/cnopens_projects/bui-bui-master/bui/README.md",
+		"/E/labroom/cnopens_projects/framework/readme",
+		"/E/项目工作夹/[2015]国家电网-云资源管理/汇聚层&&审计开发需求变更.txt",
+		"//172.16.10.91/c$/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/js/base_v5.js",
+		"/D/Company/opmanager/Aerospace nine homes/index.html",
+		"//172.16.10.91/c$/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/index.html",
+		"/G/上线更新/自动化任务JOB执行定义.txt",
+		"/E/MyFBox/lab/thinkgem-jeesite/proguard.cfg",
+		"/C/Users/Administrator/Desktop/bmc-traning/bmc-training.txt",
+		"/D/java_lab/myjavanote/.idea/libraries/Maven__junit_junit_3_8_1.xml",
+		"/C/Users/Administrator/Desktop/Idea-key.txt",
+		"/D/Company/长安项目问题解决/framework/metric.txt",
+		"/C/Users/Administrator/Desktop/ca.txt",
+		"/C/Users/Administrator/Desktop/xxxx.txt",
+		"/C/Users/Administrator/Desktop/高云飞交接文档.txt",
+		"/E/Career-面试丢弃烦躁/面试资料/JAVA多线程面试问答.txt",
+		"/E/manual/ActionDo/[2015]实验记录/docker-learning.txt",
+		"/E/Career-面试丢弃烦躁/提升影响力和能力注册信息.txt",
+		"/E/项目工作夹/[2015]国家电网-云资源管理/叶奇伟/自动化任务上线时间安排-蔡晓峰.txt",
+		"/G/上线更新/正式环境部署列表.txt",
+		"/G/上线更新/autotask-jar-product/README.txt",
+		"/C/Users/Administrator/Desktop/InterView Questions -BMC.txt",
+		"/C/Users/Administrator/Desktop/自动化任务上线时间安排-蔡晓峰.txt",
+		"/E/manual/ActionDo/[focus]linux-newTechnology.txt",
+		"/D/devtools/Sublime Text3/Data/Packages/SublimeTmpl/Default (Windows).sublime-keymap",
+		"/D/devtools/Sublime Text3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.046/LocalStrings.properties",
+		"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.429/LocalStrings.properties",
+		"/E/[2012][AAA]云计算/new focus/ubuntu系统debootstrap的使用.txt",
+		"/E/[2012][AAA]云计算/new focus/docker-learning.txt",
+		"/D/appsoft/Administrator/product/11.2.0/client_1/network/admin/tnsnames.oRA",
+		"/D/appsoft/Administrator/product/11.2.0/client_1/network/admin/sqlnet.ora",
+		"/C/Users/Administrator/Desktop/itms及多种监控学习/监控应该熟悉的知识.txt",
+		"/E/[2012][AAA]云计算/new focus/[2012-2015]计划文档夹/笔记日志-实验室.txt",
+		"/E/manual/ActionDo/[2015]实验记录/saltstack-note.txt",
+		"/E/labroom/apache-src/product-tomcat-yz/tomcat/logs/catalina.2015-10-28.log",
+		"/E/labroom/apache-src/patch/tomcat/tc6.0.x/trunk/java/org/apache/catalina/startup/LocalStrings.properties",
+		"/E/labroom/apache-src/product-tomcat-yz/配置信息梳理.txt",
+		"/E/个人文档夹/myencrydoc/taobao-学习视频-购买.txt",
+		"/E/labroom/apache-src/product-tomcat-yz/tomcat/conf/catalina.properties",
+		"/E/个人文档夹/疾病治疗/治疗-药方.txt",
+		"/E/labroom/apache-src/apache-tomcat-6.0.20-src/build.properties",
+		"/C/Users/Administrator/AppData/Local/Temp/scp21313/usr/local/src/apache-tomcat-6.0.20-src/build.properties",
+		"/C/Users/Administrator/AppData/Local/Temp/scp13461/usr/local/src/apache-tomcat-6.0.20-src/build.xml",
+		"/C/Users/Administrator/AppData/Local/Temp/scp27251/usr/local/src/apache-tomcat-6.0.20-src/dist.xml",
+		"/E/labroom/apache-src/apache-tomcat-6.0.20/build.properties",
+		"/E/manual/ActionDo/实验记录/docker-lab-note.txt",
+		"/C/Users/Administrator/AppData/Local/Temp/635805261414553337.txt",
+		"/D/Company/gwcc/lab/spring-websocket/README.md",
+		"/E/项目工作夹/[2015]国家电网-云资源管理/亦庄检修/汇聚层周末检修更新/clusterconfig.ktr",
+		"/H/10.13日检修更新/列表.txt",
+		"/H/[2015]lab-resources/VIPlab/新建文本文档.txt",
+		"/E/个人文档夹/myencrydoc/vip视频百度盘地址.txt",
+		"/E/CooperationPro/[2015]首经贸二期项目/系统管理说明手册.txt",
+		"/D/Company/gwcc/sgcc/bak/main/test/test.sql",
+		"/D/Company/gwcc/sgcc/bak/main/readme.md",
+		"/D/Company/gwcc/zookeeper_job/jar/chinaglobal/com/bmc/zookeeper/initsgcc.properties",
+		"/E/manual/[db]oracle学习专题/sql.sql",
+		"/E/项目工作夹/[2015]国家电网-云资源管理/审计开发需求变更.txt",
+		"/D/Company/gwcc/zkcluster/zkb/conf/zoo.cfg",
+		"/D/Company/gwcc/zkcluster/zka/conf/zoo.cfg",
+		"/D/Company/gwcc/zkcluster/zkc/conf/zoo.cfg",
+		"/D/Company/gwcc/zkcluster/zookeeperA/conf/zoo.cfg",
+		"/D/daydaycode/etl/zooinspector/pom.xml",
+		"/E/manual/ActionDo/How To Install Linux, Apache, MySQL, PHP (LAMP) .txt",
+		"/C/Users/Administrator/Desktop/site.txt",
+		"/E/项目工作夹/[2015]国家电网-云资源管理/配合自动化任务开发项目.txt",
+		"/E/manual/[lang][go]go语言/go语言能干什么.txt",
+		"/E/项目工作夹/IT运维事业部-蔡晓峰工作记录.txt",
+		"/E/manual/[db]oracle学习专题/OCP/OCP扫盲.txt",
+		"/E/manual/[2015]DB/customer.sql",
+		"/E/task-learning[整理]/t400资源迁移本机/工作文件夹/思源-项目管理 (学习)/sqlScript/字典表数据变更2009-03-10.sql",
+		"/E/task-learning[整理]/t400资源迁移本机/工作文件夹/思源-项目管理 (学习)/oracel_dba必会.~sql",
+		"/D/devtools/JetBrains/PyCharm 4.5.1/bin/idea.properties",
+		"/D/Company/ItmsACS/stun/README.md",
+		"/D/jdk/Python34/Lib/types.py",
+		"/D/jdk/Python27/Lib/types.py",
+		"/E/labroom/sjmtwgl/resources/application.properties",
+		"/E/项目工作夹/[2015]国家电网-云资源管理/亚磊-数据审计亦庄部署jar包/do/1-getVcInfo/MANIFEST.MF",
+		"/E/manual/ActionDo/接口.txt",
+		"/E/项目工作夹/[2015]国家电网-云资源管理/亚磊-数据审计亦庄部署jar包/do/2-insert/MANIFEST.MF",
+		"/E/[2012][AAA]云计算/new focus/[2012-2015]计划文档夹/乱码问题.txt",
+		"/C/Users/Administrator/Desktop/新建文本文档.txt",
+		"/E/manual/[2015]doAction/doAction-每天任务记录.txt",
+		"/E/manual/[2015]doAction/Book-Javaee_adv/db/database/demo.sql",
+		"/C/Users/Administrator/Desktop/app-resources/test.json",
+		"/E/manual/[2015]doAction/实验记录/saltstack-note.txt",
+		"/E/CooperationPro/[2015]首经贸二期项目/首经贸开始做[6.6].txt",
+		"/E/[2012][AAA]云计算/new focus/[2012-2015]计划文档夹/play项目.txt",
+		"/E/[2012][AAA]云计算/new focus/[2012-2015]计划文档夹/HttpURLConnection.txt",
+		"/E/manual/[2015]doAction/每天任务记录.txt",
+		"/E/[2012][AAA]云计算/new focus/[2012-2015]计划文档夹/java.txt",
+		"/E/[2012][AAA]云计算/new focus/[2012-2015]计划文档夹/我的常用linux操作历史.txt",
+		"/D/java_lab/myjavanote/src/README.md",
+		"/D/java_lab/myjavanote/src/main/java/com/cnopens/utils/Escape.java",
+		"/D/java_lab/myjavanote/src/main/webapp/WEB-INF/web.xml",
+		"/D/java_lab/myjavanote/pom.xml",
+		"/D/www/labroom/lab-jquery/sjm-example.md",
+		"/D/www/labroom/lab-jquery/readme.md",
+		"/D/devtools/Sublime Text3/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/D/devtools/Sublime Text3/Data/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"_",
+			"dashboardQueryDetails",
+			"sublime",
+			"angular",
+			"greenmail",
+			"\n",
+			"fmi",
+			"飞马",
+			"剪切",
+			"fSwitchTab",
+			"fEventListen",
+			"fEventUnlisten",
+			"fEventListen",
+			"fEventUnlisten",
+			"errorAlert",
+			"DISK",
+			"----------------\n",
+			" \n",
+			"docker",
+			"tomcat.dist",
+			"compile.optimize",
+			"jasper-jdt.home",
+			"lyc0324javassfwxj0616",
+			"csv",
+			"spoon",
+			"----------------------------------------------------------------------------------------------------------------\n",
+			"zookeeper",
+			"mesos",
+			"kettle",
+			"-max",
+			"zookeeper",
+			"curator",
+			"config",
+			"maven",
+			"playt",
+			"play",
+			"vnc",
+			"zookeeper",
+			"绑定端口：InternetGatewayDevice",
+			"http://www.theurbanpenguin.com/",
+			"theurbanpenguin.com",
+			"@",
+			"http://ywwd.net",
+			"git",
+			"245",
+			"salt",
+			"	1",
+			"	0",
+			"NextLevel",
+			"Header",
+			"事件",
+			">",
+			"us.",
+			"GW_MONITOR_METRIC",
+			"bppmws",
+			"CPUCPUUTIL",
+			"8080",
+			"clm",
+			"GW_BUSINESS_SYSTEM",
+			"申请日期：",
+			"max",
+			"LucidaTypewriterBold",
+			"LucidaTypewriterRegular",
+			"LucidaSansDemiBold",
+			"LucidaSansRegular",
+			"LucidaBrightDemiItalic",
+			"LucidaBrightDemiBold",
+			"LucidaBrightItalic",
+			"LucidaBrightRegular",
+			"chart4",
+			"');\n",
+			"ERROR",
+			"修改服务实例",
+			"ERROR",
+			"\"/>\n",
+			"google",
+			"productName",
+			"localhost",
+			"licener",
+			"/>",
+			"mirror",
+			"plugin",
+			"jetty",
+			"'\n",
+			"PRV_",
+			"LATIN1",
+			"`)\n",
+			"/ADMIN/MENUS",
+			"VALUES",
+			"m-widget-2",
+			"widget2ToggleContent",
+			"1024",
+			"started",
+			"prvdb",
+			"      \n",
+			"   <table schema=\"prvdb\" tableName=\"prv_system\" domainObjectName=\"System\" enableCountByExample=\"false\" enableUpdateByExample=\"false\" enableDeleteByExample=\"false\" enableSelectByExample=\"false\" selectByExampleQueryId=\"false\"></table>     \n        <table schema=\"prvdb\" tableName=\"prv_system\" domainObjectName=\"System\" enableCountByExample=\"false\" enableUpdateByExample=\"false\" enableDeleteByExample=\"false\" enableSelectByExample=\"false\" selectByExampleQueryId=\"false\"></table>      ",
+			"   <table schema=\"prvdb\" tableName=\"prv_system\" domainObjectName=\"System\" enableCountByExample=\"false\" enableUpdateByExample=\"false\" enableDeleteByExample=\"false\" enableSelectByExample=\"false\" selectByExampleQueryId=\"false\"></table>  ",
+			"`osa_",
+			"`osa_\n",
+			"-----------------------------\n",
+			"refreshNodes",
+			"harness.dir",
+			"tomcat",
+			"支付宝",
+			"plugin",
+			"maven-jetty-plugin.version}",
+			"jetty",
+			"https",
+			"`osa_*`",
+			"osa_?",
+			"osa_*",
+			"osa_",
+			"demo.osadmin.net",
+			"useradd",
+			"bind",
+			"path",
+			"c：",
+			"1394ohci.sys.mui",
+			"用户权限系统怎么集成这个工作流，权限分为两种，即功能权限（页面显示不显示那种）和数据权限（比如A部门用户只能看到A部门的东东）",
+			"db",
+			"server",
+			"NULL",
+			"area",
+			"id",
+			"Item",
+			"chineseLabel",
+			"    <!--",
+			"consume"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"=1",
+			"=0",
+			"simsun",
+			"></script>",
+			"CLM_",
+			"UTF8",
+			"scmpdb",
+			"`pri_",
+			"pri_",
+			"美容",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 78.0
+	},
+	"output.find_results":
+	{
+		"height": 136.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "cnlab.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\[2015][ITIL][RD-DEV]BMCRemedy\\BMC-training-2015\\bmc-training.txt"
+			],
+			[
+				"bpp",
+				"E:\\项目工作夹\\国睿项目\\[2016]航天九院总部实施文档\\bppm日常记录.txt"
+			],
+			[
+				"big",
+				"E:\\bigdata-lab\\Bigdata-学习点.txt"
+			],
+			[
+				"bmcc",
+				"E:\\[2015][ITIL][RD-DEV]BMCRemedy\\BMC-training-2015\\bmc-training.txt"
+			],
+			[
+				"bigda",
+				"E:\\bigdata-lab\\Bigdata-学习点.txt"
+			],
+			[
+				"bigdata",
+				"E:\\bigdata-lab\\Bigdata-学习点.txt"
+			],
+			[
+				"bmc",
+				"E:\\[2015][ITIL][RD-DEV]BMCRemedy\\BMC-training-2015\\bmc-training.txt"
+			],
+			[
+				"vim",
+				"E:\\[2012][AAA]云计算\\new focus\\[2012-2015]计划文档夹\\VIM视窗操作简介"
+			],
+			[
+				"汇聚",
+				"E:\\项目工作夹\\[2015]国家电网-云资源管理\\汇聚层&&审计开发需求变更.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/E/projects/yolochina/yolochina.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 290.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

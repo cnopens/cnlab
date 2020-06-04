@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>no template handle json display</title>
+</head>
+<body>
+
+<div class="news-list">
+    <h4>新闻列表</h4>
+    <ul id="newsList"></ul>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script>
+
+	$.ajax({
+		type,
+		url,
+		dataType:'json',
+		success:function function_name(data) {
+
+		},
+	});
+
+    var html = "";
+    for(var i in JSON_DATA){
+        html += '<li class="flex"><div class="left"><span></span></div><div class="right">';
+        html += '<h4>'+JSON_DATA[i].title+'</h4><div class="flex"><span>'+JSON_DATA[i].tag+'</span><span>'+JSON_DATA[i].date+'</span>';
+        html += '</div></div></li>';
+    }
+    $("#newsList").html(html);
+</body>
+</html>

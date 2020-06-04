@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+
+</body>
+<script type="text/javascript">
+//迭代器的简单范例
+function makeIterator(arr) {
+    let nextIndex = 0
+
+    // 返回一个迭代器对象
+    return {
+        // next()返回的结果对象
+        next: () => {
+            if (nextIndex < arr.length) {
+                return {
+                    value: arr[nextIndex++],
+                    done: false
+                }
+            } else {
+                return {
+                    done: true
+                }
+            }
+        }
+    }
+}
+
+const it = makeIterator(['1', '2', '3'])
+
+console.log(it.next().value)
+console.log(it.next().value)
+console.log(it.next().value)
+console.log(it.next().done)
+
+//生成器写法
+function *iterator(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        yield arr[i]
+    }
+}
+
+const gen = iterator(['1', '2', '3'])
+
+console.log(gen.next().value)
+console.log(gen.next().value)
+console.log(gen.next().value)
+console.log(gen.next().done)
+
+	</script>
+</html>

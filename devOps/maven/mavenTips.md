@@ -50,3 +50,22 @@ Pom.xml 配置优先级选择：
     </pluginRepositories>
 
 </p>
+
+
+## mvn 本地安装自定义jar
+mvn install:install-file -Dfile=D:\ds-projects\ojdbc16-12.1.0.1.jar -DgroupId=com.oracle -DartifactId=ojdbc16 -Dversion=12.1.0.1 -Dpackaging=jar
+
+## 打包
+
+method1:
+mvn package -DskipTests 或 mvn package -Dmaven.test.skip=true
+method2:
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-surefire-plugin</artifactId>
+<version>2.18.1</version>
+  <configuration>
+  <skipTests>true</skipTests>
+  </configuration>
+</v-container>
+</plugin>

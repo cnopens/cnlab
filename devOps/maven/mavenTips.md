@@ -53,7 +53,7 @@ Pom.xml 配置优先级选择：
 
 
 ## mvn 本地安装自定义jar
-mvn install:install-file -Dfile=D:\ds-projects\ojdbc16-12.1.0.1.jar -DgroupId=com.oracle -DartifactId=ojdbc16 -Dversion=12.1.0.1 -Dpackaging=jar
+mvn install:install-file -Dfile=/home/cnopens/workspace/lib/ojdbc16-12.1.0.1.jar -DgroupId=com.oracle -DartifactId=ojdbc16 -Dversion=12.1.0.1 -Dpackaging=jar
 
 ## 打包
 
@@ -69,3 +69,14 @@ method2:
   </configuration>
 </v-container>
 </plugin>
+
+
+
+## setttings.xml config
+
+mvn install:install-file -Dfile=/home/cnopens/workspace/lib/ojdbc16-12.1.0.1.jar -DgroupId=com.oracle -DartifactId=ojdbc16 -Dversion=12.1.0.1 -Dpackaging=jar
+
+export M2_HOME=/home/cnopens/servers/apache-maven-3.6.3
+
+intellij idea:maven config
+Runner VM Options -Xms1024m -Xmx1024m

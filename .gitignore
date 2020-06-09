@@ -1,6 +1,5 @@
 .idea/
-worklog
-langStack/golang/
-langStack/powercli
+#worklog
+#langStack/powercli
 #memo
 *.sublime-project

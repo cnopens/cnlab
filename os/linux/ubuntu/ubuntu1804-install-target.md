@@ -13,11 +13,18 @@ root
 
 ## youdao
 
+ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
+
 
 ## sougou
 
 
 @todo 
+
+
+## 7z
+apt-get install p7zip-full
+解压7z：使用方法：7z x file file是你要解压的文件名
 
 ---
 ## source.list config
@@ -101,6 +108,15 @@ Effect:
 
 source ~/.bashrc
 
+
+### jdk 多版本安装
+----------------------
+
+1. 下载
+
+2. /usr/lib/jvm/目录下，然后解压 example :/usr/lib/jvm/jdk8 |jd11 | jdk7
+
+
 然后输入这几条指令
 
 	sudo update-alternatives –install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_171/bin/java 300 
@@ -109,7 +125,21 @@ source ~/.bashrc
 	sudo update-alternatives –install /usr/bin/javah javah /usr/lib/jvm/jdk1.8.0_171/bin/javah 300 
 	sudo update-alternatives –install /usr/bin/javap javap /usr/lib/jvm/jdk1.8.0_171/bin/javap 300
 
+
+安装实例：
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_181/bin/java 300
+sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.8.0_181/bin/javac 300
+
+作者：purple_dragon
+链接：https://www.jianshu.com/p/65a5c8d9cb9a
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+改变这个指向呢，用到update-alternatives命令了。
+
 sudo update-alternatives –config java
+
 
 
 jdk config (myconfig)
@@ -156,6 +186,26 @@ settings.xml
 
 ## Node config 
 ------------------------------------
+在系统内安装nodejs
+
+在系统内一次输入以下指令
+
+sudo apt-get update  
+# 下方的下载地址，请根据需要更换
+sudo wget https://nodejs.org/dist/v10.15.3/node-v10.15.3.tar.gz
+# 下方的解压文件，根据下载的文件名更换
+sudo tar xvf node-v10.15.3.tar.gz
+# 下方的文件夹名称根据解压之后的文件名更换
+cd node-v10.15.3
+sudo ./configure
+sudo make
+sudo make test
+sudo make install  
+sudo cp /usr/local/bin/node /usr/sbin/
+
+ln -s  /home/root/node-v10.11.0-linux-x64/bin/node  /usr/local/bin/
+ln -s /home/root/node-v10.11.0-linux-x64/bin/node  /usr/local/bin/
+// 注意要写文件的绝对路径
 
 
 ## redis install

@@ -12,3 +12,8 @@ sudo yum install -y powershell
 pwsh
 
 ---
+
+
+
+#Ubuntu install powershell
+snap install powershell --classic

@@ -1,6 +1,6 @@
 #Simple Basic Knowlegue
 
----
+
 ##Resources 
 
 Nodejs advance function:
@@ -70,3 +70,5 @@ npm i module_name  -g  全局安装
 devDependencies  里面的插件只用于开发环境，不用于生产环境，而 dependencies  是需要发布到生产环境的
 </pre>
 --- 
+
+## Global pacakge module config

@@ -19,3 +19,7 @@ pwsh  /opt/test/dsicloud-rsmgr-1.0-SNAPSHOT.jar!/BOOT-INF/classes!/datacenterlis
 
 ## spirngboot 资源(resources) 访问问题
 /opt/iaas-api/iaas_server-1.0-SNAPSHOT.jar!/BOOT-INF/classes!/datacenterlist.ps1
+
+
+## springboot restcontroller how to Fetch outputstream ?
+

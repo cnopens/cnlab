@@ -15,7 +15,7 @@ sudo apt install curl
 
 2. 现在，使用命令下载NVM安装脚本：
 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash 
 
 自动克隆NVM存储库并将NVM路径添加到ZSH或Bash之后，你将收到以下输出：
 

@@ -1,5 +1,5 @@
 .idea/
-worklog/*.*
+worklog/*.md
 #langStack/powercli
 #memo
 *.sublime-project

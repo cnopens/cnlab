@@ -184,3 +184,16 @@ Now using node v5.9.1 (npm v3.7.3)
 nvm use et. al. will traverse directory structure upwards from the current directory looking for the .nvmrc file. In other words, running nvm use et. al. in any subdirectory of a directory with an .nvmrc will result in that .nvmrc being utilized.
 
 The contents of a .nvmrc file must be the <version> (as described by nvm --help) followed by a newline. No trailing spaces are allowed, and the trailing newline is required.
+
+
+
+
+    安装nvm后可切换node版本，但npm版本还是最新的，npm不变为什么？
+
+    node 如何降级npm 版本?
+
+    npm install npm@3.8.6 -g
+
+    npm install npm@5.8.0 -g
+
+    npm install npm@latest -g

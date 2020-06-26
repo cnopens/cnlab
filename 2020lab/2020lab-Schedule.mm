@@ -1,0 +1,60 @@
+<map version="1.1.0">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1592489484970" ID="ID_1364702275" MODIFIED="1592492477416" TEXT="2020&#x8ba1;&#x5212;&#x6267;&#x884c;">
+<icon BUILTIN="full-1"/>
+<node CREATED="1592489719598" ID="ID_482952544" MODIFIED="1592492488323" POSITION="right" TEXT="&#x603b;&#x76ee;&#x6807;&#x8bbe;&#x7f6e;">
+<icon BUILTIN="full-3"/>
+<node CREATED="1592490616716" ID="ID_174943663" MODIFIED="1592490634914" TEXT="&#x524d;&#x7aef;&#x5f00;&#x53d1;"/>
+<node CREATED="1592490637012" ID="ID_931453361" MODIFIED="1592490647525" TEXT="&#x540e;&#x7aef;&#x5f00;&#x53d1;">
+<node CREATED="1592490705170" ID="ID_445506438" MODIFIED="1592490722714" TEXT="linux&#x5f00;&#x53d1;"/>
+<node CREATED="1592490728659" ID="ID_1901819077" MODIFIED="1592490873160" TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;">
+<node CREATED="1592490822089" ID="ID_1310879914" MODIFIED="1592490825520" TEXT="Java"/>
+</node>
+<node CREATED="1592490739652" ID="ID_147554032" MODIFIED="1592490810037" TEXT="&#x51fd;&#x6570;&#x5f0f;&#x5f00;&#x53d1;"/>
+<node CREATED="1592490830995" ID="ID_1941273900" MODIFIED="1592490844716" TEXT="&#x5176;&#x4ed6;&#x5f00;&#x53d1;"/>
+</node>
+<node CREATED="1592490651556" ID="ID_794708884" MODIFIED="1592492256627" TEXT="&#x5168;&#x6808;&#x5f00;&#x53d1;"/>
+</node>
+<node CREATED="1592492265815" ID="ID_1920455004" MODIFIED="1592492491305" POSITION="left" TEXT="VIP&#x8ba1;&#x5212;">
+<icon BUILTIN="full-2"/>
+<node CREATED="1592492304440" ID="ID_63005380" MODIFIED="1593147496338" TEXT="&#x524d;&#x7aef;&#x76ee;&#x6807;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2020-07&#23436;&#25104;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1593147274385" ID="ID_955181729" MODIFIED="1593147449752" TEXT="&#x5de5;&#x7a0b;&#x5316;&#x6784;&#x5efa;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="5">20200626</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node CREATED="1592492316999" ID="ID_1794945389" MODIFIED="1592492334575" TEXT="&#x67b6;&#x6784;&#x8bfe;&#x7a0b;">
+<node CREATED="1592492375132" ID="ID_1308905429" MODIFIED="1593147222190" TEXT="&#x56fe;&#x7075;&#x4e92;&#x8054;&#x7f51;&#x67b6;&#x6784;&#x5e08;">
+<node CREATED="1592492437228" ID="ID_65106376" MODIFIED="1593147250990" TEXT="&#x4e00;&#x671f;&#x5b66;&#x4e60;">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1593147225550" ID="ID_448967477" MODIFIED="1593147233187" TEXT="&#x4e8c;&#x671f;&#x5b66;&#x4e60;"/>
+<node CREATED="1593147235957" ID="ID_1186861953" MODIFIED="1593147242166" TEXT="&#x4e09;&#x671f;&#x5b66;&#x4e60;"/>
+</node>
+</node>
+<node CREATED="1592492339079" ID="ID_1604192948" MODIFIED="1592492348438" TEXT="&#x4e91;&#x8ba1;&#x7b97;&#x8bfe;&#x7a0b;"/>
+<node CREATED="1592492350559" ID="ID_701578346" MODIFIED="1592492359263" TEXT="&#x5927;&#x6570;&#x636e;&#x8bfe;&#x7a0b;"/>
+</node>
+</node>
+</map>

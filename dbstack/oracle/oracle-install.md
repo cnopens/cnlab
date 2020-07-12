@@ -33,3 +33,14 @@ startup open
 startup force 
 
 startup pfile
+
+查看数据库状态
+select status from v$istance
+
+
+
+## oracle 自动启动
+
+
+
+

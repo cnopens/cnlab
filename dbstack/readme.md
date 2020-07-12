@@ -49,3 +49,19 @@ from user_tab_columns  ut
                     on ut.TABLE_NAME  = uc.table_name and ut.COLUMN_NAME = uc.column_name
 where ut.Table_Name='DSI_VM_INFO'
 order by ut.column_name
+
+
+
+
+
+ORACLE中查看当前系统中锁表情况:
+select object_name,machine,s.sid,s.serial#
+from v$locked_object l,dba_objects o ,v$session s
+where l.object_id　=　o.object_id and l.session_id=s.sid;
+
+ORACLE解锁的方法 (单个解锁)
+alter system kill session '13,298';
+
+ORACLE解锁的方法 (多个解锁)
+select a.object_name,b.session_id,c.serial#,'alter system kill session '''||b.session_id||','||c.serial#||'''; ' as a,c.program,c.username,c.command,c.machine,c.lockwait
+from all_objects a,v$locked_object b,v$session c where a.object_id=b.object_id and c.sid=b.session_id;

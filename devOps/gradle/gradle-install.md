@@ -30,7 +30,7 @@ unzip /jdk/
 
 	    buildscript { 
 	        repositories { 
-	            maven { name "Alibaba" ; url 'https://maven.aliyun.com/repository/public' }
+	            maven { name "Alibaba" ; url 'ht22222222tps://maven.aliyun.com/repository/public' }
 	            maven { name "Bstek" ; url 'http://nexus.bsdn.org/content/groups/public/' }
 	            maven { name "M2" ; url 'https://plugins.gradle.org/m2/' }
 	        }
@@ -38,3 +38,8 @@ unzip /jdk/
 	}
 
 repositories 中写的是获取 jar 包的顺序。先是本地的 Maven 仓库路径；接着的 mavenLocal() 是获取 Maven 本地仓库的路径，应该是和第一条一样，但是不冲突；第三条和第四条是从国内和国外的网络上仓库获取；最后的 mavenCentral() 是从Apache提供的中央仓库获取 jar 包。
+
+3. ubuntu 最优放置位置
+～/.bashrc
+export GRADLE_HOME=/home/cnopens/servers/gradle-5.6
+export GRADLE_USER_HOME=/home/cnopens/.m2/repository

@@ -197,3 +197,5 @@ The contents of a .nvmrc file must be the <version> (as described by nvm --help)
     npm install npm@5.8.0 -g
 
     npm install npm@latest -g
+
+

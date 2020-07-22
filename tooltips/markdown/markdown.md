@@ -3,7 +3,7 @@
 --
 ##Markdown Common Technique
 
-[href] https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[href] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ##real time preview markdown syntax
 
@@ -13,3 +13,4 @@
 #MarkDown must be over,prepare for the next step:blog,article
 ---
 _hello_:
+

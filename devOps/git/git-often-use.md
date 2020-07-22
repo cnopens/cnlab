@@ -30,3 +30,24 @@
   fetch      从另外一个仓库下载对象和引用
   pull      获取并整合另外的仓库或一个本地分支
   push      更新远程引用和相关的对象
+
+
+
+
+
+## git tips 
+
+  git commit -am "" [^RUNOOB]:one time submit
+
+  git 如何处理ignore的加在版本内文件
+
+  git -f add xxx file 强制添加
+
+  gitcheck-ignore (对规则进行检查那有错)
+
+##强制更新
+注意:该命令直接放弃所有修改代码,并更新到版本库最新版本代码;
+
+1. git fetch --all
+2. git reset --hard origin/master
+3. git pull

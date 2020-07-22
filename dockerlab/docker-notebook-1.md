@@ -7,10 +7,8 @@
     TCP/IP
 
 
-
-
 * Docker 底层核心
-    1.  namespace
+    1. namespace
     2. group
     3. container
 

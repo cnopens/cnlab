@@ -22,3 +22,18 @@ https://www.jetbrains.com/clion/download/other.html
 ### 图数据库与三维建模
  
 ### 
+
+
+## maven res
+
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools/2.3.1.RELEASE
+
+
+## go manual 
+https://www.runoob.com/go/go-map.html
+
+
+## gradle manual
+
+https://docs.gradle.org/current/dsl/org.gradle.api.Project.html#org.gradle.api.Project:sourceSets(groovy.lang.Closure)
+

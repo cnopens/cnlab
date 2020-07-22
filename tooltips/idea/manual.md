@@ -10,8 +10,6 @@
 1、emBrowser4Intellj
 
 
-
-
 ## Most popular Plugins
 <ul style="">
 	<li>Rainbow Brackets:智能匹配括号，
@@ -33,7 +31,15 @@
 		Fixes for UI
 		Bug fixes for Markdown
 		Performance improvement of XM
-
 	</li>
-
 </ul>
+
+## The current inotify(7) watch limit is too low. 
+
+1. Add the following line to either /etc/sysctl.conf file or a new *.conf file (e.g. idea.conf) under /etc/sysctl.d/ directory:
+fs.inotify.max_user_watches = 524288  (recomend /etc/sysctl.d/idea.conf )
+
+2. Then run this command to apply the change:
+sudo sysctl -p --system
+
+And don't forget to restart your IDE.

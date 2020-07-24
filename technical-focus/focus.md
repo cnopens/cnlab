@@ -33,7 +33,22 @@ https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools
 https://www.runoob.com/go/go-map.html
 
 
+*java类
+
+
 ## gradle manual
 
 https://docs.gradle.org/current/dsl/org.gradle.api.Project.html#org.gradle.api.Project:sourceSets(groovy.lang.Closure)
 
+
+
+## cache 
+
+https://gitee.com/fufu669/cache-fetch-later
+
+
+## 在线api查看
+
+https://www.matools.com/api/
+
+https://spring.io/projects/spring-framework#learn

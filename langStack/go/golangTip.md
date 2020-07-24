@@ -1,6 +1,25 @@
 # golangTip.md
-## go 1.14 
+## go 1.14 (focus on updating changes)
 
+
+
+
+
+
+## focums on go relation technologue 
+
+-go template
+Go语言的模板与大多数语言一样，是用 {{ 和 }} 来做标识，{{ }} 里可以是表达式，也可以是变量，不过 Go语言的模板比较简陋，没办法像Python中 jinja2 那样使用继承的写法，而只能是用拼接的写法。
+
+
+
+
+
+## common commands usage
+
+go list -m -json 
+
+go fmt
 
 
 

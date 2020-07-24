@@ -80,3 +80,58 @@ export M2_HOME=/home/cnopens/servers/apache-maven-3.6.3
 
 intellij idea:maven config
 Runner VM Options -Xms1024m -Xmx1024m
+
+
+
+## Maven工具之 GPG
+
+-What? -> Maven使用GPG对文件进行签名加密.
+~~~
+
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <executions>
+            <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                    <goal>sign</goal>
+                </goals>
+            </execution>
+        </executions>
+    </plugin>
+
+~~~
+
+Question: Could not find artifact org.apache.maven.plugins:maven-gpg-plugin:pom: in alimaven ?
+
+<build>
+   <plugins>
+
+      <plugin></plugin>
+
+      ...
+
+       <plugin></plugin>
+
+    </plugins>
+
+</build>
+
+Change : 
+
+<build>
+   <pluginManagement> ##显示声明处理
+   <plugins>
+
+      <plugin></plugin>
+
+      ...
+
+       <plugin></plugin>
+
+    </plugins> 
+</pluginManagement>
+</build>
+

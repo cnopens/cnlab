@@ -100,3 +100,12 @@ kubectl  delete pod -n kube-system alertmanager-78567898bc-2j54p
 
     $ kubectl exec my-podname -- ls /    #在已存在的容器中执行命令
 
+
+
+
+查看容器配置：
+kubectl  get cm -n kube-system  -o yaml  prometheus-config
+
+
+查看所有容器配置：
+kubectl get cm -n kube-system

@@ -31,3 +31,33 @@ vim ~/.bashrc
 if [ -f /etc/profile ]; then
 . /etc/profile
 fi
+
+
+
+
+*删除 apt-key
+
+sudo apt-key list
+
+删除
+sudo apt-key del B455BEF0
+
+添加PPA源的命令为：
+
+sudo add-apt-repository ppa:user/ppa-name
+
+添加好更新一下： sudo apt-get update
+
+
+删除命令格式则为：
+
+sudo add-apt-repository -r ppa:user/ppa-name
+
+或者
+
+1,到 源的 目 录:cd  /etc/apt/sources.list.d/
+
+2,可以看 到 关 于 源的 文件,删除即可 
+
+
+

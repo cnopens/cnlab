@@ -6,17 +6,13 @@
     ISO/OST
     TCP/IP
 
-
 * Docker 底层核心
     1. namespace
     2. group
     3. container
 
-
 * Container
     1. 
-
-
     sudo ip netns list 
 sudo ip netns delete/add name1
 

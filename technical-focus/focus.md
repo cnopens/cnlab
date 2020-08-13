@@ -29,11 +29,11 @@ https://www.jetbrains.com/clion/download/other.html
 https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools/2.3.1.RELEASE
 
 
-## go manual 
-https://www.runoob.com/go/go-map.html
+## go 
+- go手册 https://www.runoob.com/go/go-map.html
+- go代理 https://goproxy.cn/
 
-
-*java类
+## java
 
 
 ## gradle manual

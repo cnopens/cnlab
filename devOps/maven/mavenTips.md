@@ -135,3 +135,4 @@ Change :
 </pluginManagement>
 </build>
 
+## Maven pom lifecycle

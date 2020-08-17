@@ -41,14 +41,49 @@ https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools
 https://docs.gradle.org/current/dsl/org.gradle.api.Project.html#org.gradle.api.Project:sourceSets(groovy.lang.Closure)
 
 
-
 ## cache 
 
 https://gitee.com/fufu669/cache-fetch-later
 
 
 ## 在线api查看
-
 https://www.matools.com/api/
 
 https://spring.io/projects/spring-framework#learn
+
+
+## baidu resources
+-百度区块链资源
+https://cloud.baidu.com/doc/BBE/s/5jwvxx4rf
+
+-百度容器云cee
+https://cloud.baidu.com/doc/CCE/s/Jk9cxgekd
+
+-Visual Datav
+https://cloud.baidu.com/doc/SUGAR/s/Ok0dqz4hm
+
+
+
+## Open Monitor
+OpenFalcon是一款企业级、高可用、可扩展的开源监控解决方案。
+https://book.open-falcon.org/zh_0_2/
+
+Monitor:
+https://blog.csdn.net/qqqqll3/article/details/89522697
+
+
+## Front end technology 
+
+- Openbase(https://openbase.io)
+```Openbase 
+is a community for developers to discover and rate open-source packages
+Sign up to save your favorite packages, rate and review, or claim your package. We care about your privacy and don't collect excess data
+```
+
+
+
+## Focus Team 
+
+1. baiduTeam (https://github.com/fex-team)
+
+

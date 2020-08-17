@@ -1,0 +1,304 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cnopens/fullstackspace/tools/yog2-book-app"
+	],
+	"file_history":
+	[
+		"/home/cnopens/fullstackspace/tools/yog2-book-app/README.md",
+		"/home/cnopens/workspace/cnlab/fullstack/nodejs/yog2/yog2-learning-note.md",
+		"/home/cnopens/workspace/cnlab/fullstack/redux/redux-learning-notebook.md",
+		"/home/cnopens/workspace/cnlab/devOps/docker/docker-host-sharefile-receive.md",
+		"/home/cnopens/workspace/cnlab/devOps/docker/外部访问docker容器.md",
+		"/home/cnopens/workspace/cnlab/2020lab/bigscreen/bigscreen-sql-function.md",
+		"/home/cnopens/workspace/cnlab/devOps/docker/docker-access-mysql-host-proplem.md",
+		"/home/cnopens/workspace/cnlab/worklog/worklog-common-usage.md",
+		"/home/cnopens/workspace/cnlab/webStack/vue/vue-dev-notebook.md",
+		"/home/cnopens/workspace/cnlab/webStack/react/react-js-notebook.md",
+		"/home/cnopens/workspace/cnlab/dbstack/boltDB/boltdb-implement.md",
+		"/home/cnopens/workspace/cnlab/effectLinuxscript/linux-script-tutorials.md",
+		"/home/cnopens/workspace/cnlab/devOps/vmware/vmware-console-console-develope.md",
+		"/home/cnopens/workspace/cnlab/os/linux/linux-chkconfig-usage.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/tool-class/google-json-application.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/deeply-realize-package-info.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/Java-specification-learning.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/java枚举专题.md",
+		"/home/cnopens/workspace/cnlab/README.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/vagrant实战虚拟机创建.md",
+		"/home/cnopens/workspace/cnlab/os/os-learning-route.md",
+		"/home/cnopens/workspace/cnlab/devOps/docker/docker-manual.md",
+		"/home/cnopens/workspace/cnlab/devOps/docker/auto-publish.md",
+		"/home/cnopens/workspace/cnlab/worklog/work_log.account.md",
+		"/home/cnopens/workspace/cnlab/devOps/docker/docker-sources-mirrors.md",
+		"/home/cnopens/workspace/cnlab/devOps/docker/docker-疑难问题.md",
+		"/home/cnopens/workspace/cnlab/devOps/k8s/prometheus/prometheus告警.md",
+		"/home/cnopens/workspace/cnlab/microservice/OpenFeign/OpenFeign-maunal.md",
+		"/home/cnopens/workspace/cnlab/microservice/microservice-learning-center.md",
+		"/home/cnopens/workspace/cnlab/tooltips/markdown/common-tools.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu-software-uninstall.md",
+		"/home/cnopens/workspace/cnlab/devOps/jenkins/jenkins-build-note.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/vagrant-manual.md",
+		"/home/cnopens/workspace/cnlab/devOps/kafak/kafka-leaning.md",
+		"/home/cnopens/workspace/cnlab/devOps/Harbor/Harbor-learning.md",
+		"/home/cnopens/workspace/cnlab/devOps/helm/helm-note.md",
+		"/home/cnopens/workspace/cnlab/microservice/ddd/ddd-领域Design.md",
+		"/home/cnopens/workspace/cnlab/devOps/cloud-deploy/cloud-deploy-note.md",
+		"/home/cnopens/workspace/cnlab/devOps/k8s/k8s-3种ip地址类型.md",
+		"/home/cnopens/workspace/cnlab/microservice/微服务常用概念.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/vgrant命令学习.md",
+		"/home/cnopens/workspace/cnlab/devOps/nexus/nexus-learning.md",
+		"/home/cnopens/workspace/cnlab/devOps/gitlab/gitlab-resource-note.md",
+		"/home/cnopens/workspace/cnlab/network/vpn/vpn-client-science.md",
+		"/home/cnopens/workspace/cnlab/devOps/index.md",
+		"/home/cnopens/workspace/cnlab/langStack/go/golangTip.md",
+		"/home/cnopens/workspace/cnlab/devOps/fluentd/fluentd-log-gather.md",
+		"/home/cnopens/workspace/cnlab/devOps/npm/npm-私服创建.md",
+		"/home/cnopens/workspace/cnlab/devOps/puppet/puppet-note-learning.md",
+		"/home/cnopens/workspace/cnlab/tooltips/markdown/markdown.md",
+		"/home/cnopens/workspace/cnlab/devOps/maven/构建生命周期.md",
+		"/home/cnopens/workspace/cnlab/devOps/maven/mavenTips.md",
+		"/home/cnopens/workspace/cnlab/technical-focus/focus.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/freemaker/freemaker-basic.md",
+		"/home/cnopens/workspace/cnlab/dbstack/mysql/mariadb.md",
+		"/home/cnopens/workspace/cnlab/tooltips/idea/manual.md",
+		"/home/cnopens/workspace/cnlab/tooltips/markdown/typicalExample.md",
+		"/home/cnopens/workspace/cnlab/devOps/yml/yaml-manual.md",
+		"/home/cnopens/workspace/cnlab/dockerlab/docker-notebook-1.md",
+		"/home/cnopens/workspace/cnlab/tooltips/idea/webstorm-manual.md",
+		"/home/cnopens/workspace/cnlab/fullstack/nodejs/npm-common-qa.md",
+		"/home/cnopens/workspace/cnlab/fullstack/nodejs/nrm-dependecy.md",
+		"/home/cnopens/workspace/cnlab/devOps/git/git-often-use.md",
+		"/home/cnopens/workspace/cnlab/framework/springboot/#在配置yml文件中如何引入其他yml.md",
+		"/home/cnopens/workspace/cnlab/devOps/es/logstash.md",
+		"/home/cnopens/workspace/cnlab/framework/springboot/sf4j-basic-grammer.md",
+		"/home/cnopens/workspace/cnlab/framework/springboot/springboot-config-log.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/chome-install.md",
+		"/home/cnopens/workspace/cnlab/fullstack/nodejs/nodejs-install-config.md",
+		"/home/cnopens/workspace/cnlab/devOps/yml/yaml-basic-manual.md",
+		"/home/cnopens/workspace/cnlab/framework/springboot/springboot-notebook.md",
+		"/home/cnopens/workspace/cnlab/framework/springboot/#logback压缩日志存储.md",
+		"/home/cnopens/workspace/cnlab/devOps/security/readme.md",
+		"/home/cnopens/workspace/cnlab/framework/springboot/springTips.md",
+		"/home/cnopens/workspace/cnlab/devOps/gradle/gradle-basic.md",
+		"/home/cnopens/workspace/cnlab/devOps/gradle/gradle-常见错误.md",
+		"/home/cnopens/workspace/cnlab/devOps/gradle/gradle-install.md",
+		"/home/cnopens/workspace/cnlab/langStack/go/goswagger.md",
+		"/home/cnopens/workspace/cnlab/2020lab/foucus-problem.md",
+		"/home/cnopens/workspace/cnlab/tooltips/toollog/常用工具分类log.md",
+		"/home/cnopens/workspace/cnlab/devOps/scriptlang/groovy/readme.md",
+		"/home/cnopens/workspace/cnlab/fullstack/build/工程化项目.md",
+		"/home/cnopens/worklog/dslog.md",
+		"/home/cnopens/workspace/cnlab/devOps/scriptlang/kotlin/Kotlin-tips.md",
+		"/home/cnopens/workspace/cnlab/2020lab/opensproj/readme.md",
+		"/home/cnopens/workspace/cnlab/goalPlanning/vipTrip.md",
+		"/home/cnopens/workspace/cnlab/os/linux/常用工具汇总.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu安装应用问题.md",
+		"/home/cnopens/workspace/cnlab/2020lab/tuling/TaskLog.md",
+		"/home/cnopens/workspace/cnlab/dbstack/readme.md",
+		"/home/cnopens/workspace/cnlab/dbstack/oracle/centos7中oracle开机自启动.md",
+		"/home/cnopens/workspace/cnlab/worklog/202006.md",
+		"/home/cnopens/workspace/cnlab/framework/springboot/spring-trans.md",
+		"/home/cnopens/workspace/cnlab/devOps/scriptlang/devops-scriptlang-focus.md",
+		"/home/cnopens/workspace/cnlab/devOps/scriptlang/perl/perl-lang.md",
+		"/home/cnopens/workspace/cnlab/dbstack/oracle/oracle-install.md",
+		"/home/cnopens/workspace/cnlab/dbstack/mysql/mysql-tips.md",
+		"/home/cnopens/workspace/cnlab/.gitignore",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu给当前用户设置免密码sudo.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/System-Security-Focus.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu下安装oracle客户端.md",
+		"/home/cnopens/workspace/cnlab/framework/mybatis/mybatis-Special.md",
+		"/home/cnopens/workspace/cnlab/framework/mybatis/mybatis-plus.md",
+		"/home/cnopens/workspace/cnlab/langStack/powershell/PowerCLI-manual.md",
+		"/home/cnopens/workspace/cnlab/langStack/powershell/linux-powershell.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu1804-install-target.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/nodejs-install-nvm-manager.md",
+		"/home/cnopens/workspace/cnlab/framework/mybatis/mybatis-often-used-query.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/java-common-notebook.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/Java生成唯一ID算法.md",
+		"/home/cnopens/workspace/cnlab/langStack/powershell/powercli -vmware.md",
+		"/home/cnopens/workspace/cnlab/framework/mybatis/oracle-mybatis-strategy.md",
+		"/home/cnopens/workspace/cnlab/fullstack/graphql/graphql-deep-leaning.md",
+		"/home/cnopens/workspace/cnlab/fullstack/nodejs/node_learningnote.md",
+		"/home/cnopens/workspace/cnlab/dbstack/oracle/Oracle实用操作记录.md",
+		"/media/cnopens/BackUp/gitCenter/cnlab/os/linux/Often-UseToolAndCommand.md",
+		"/media/cnopens/BackUp/gitCenter/cnlab/os/linux/sublime-text.md",
+		"/media/cnopens/BackUp/gitCenter/cnlab/devOps/git/git-often-use.md",
+		"/media/cnopens/BackUp/gitCenter/cnlab/worklog/202006.md",
+		"/media/cnopens/BackUp/gitCenter/cnlab/devOps/maven/mavenTips.md",
+		"/media/cnopens/BackUp/gitCenter/cnlab/os/linux/os-linux操作系统管理.md",
+		"/media/cnopens/BackUp/gitCenter/cnlab/os/linux/ubuntu/ubuntu1804-install-target.md",
+		"/media/cnopens/BackUp/gitCenter/cnlab/os/linux/ubuntu/redis-install-config.md",
+		"/media/cnopens/BackUp/gitCenter/cnlab/devOps/maven/maven-settings.xml-config.md"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 350.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

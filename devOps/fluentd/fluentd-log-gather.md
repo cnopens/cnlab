@@ -1,0 +1,2 @@
+#fluentd-log-gather.md
+---

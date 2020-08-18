@@ -566,10 +566,48 @@ key ")}}
 jQV9Awuc
 
 
-Exasol->
+##Sugar-app主要功能
+
+
+
+##Dashuo Smart Screen 项目
+
+20200818->数据设计->创建项目
+
+	- 初始化图元素数据（json-在项目中加载)
+
+
+	- 权限数据
+
+	- 组织数据
+
+
+项目名称：dss
+
+```技术架构
+目标： 实时性，api设计，
+
+研究方向：
+1. 
+2. 
+
+
+
+````
+
+Nodejs:
+- api框架设计
+- 代码规范
+- 设计模式：mvc(express/sails)
+- 全栈(Meteor)
+- Rest Api(Loopback)企业级
+
+
+
+## Exasol->
+
+
 
 
 
 ##技术架构选型
-
-

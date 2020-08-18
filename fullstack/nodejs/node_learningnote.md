@@ -3,10 +3,13 @@
 
 ##Resources 
 
-Nodejs advance function:
+- Nodejs advance function:
 ---
 [https://github.com/azat-co/node-advanced]
 
+- Nodejs framework
+
+http://nodeframework.com/#full-stack
 
 
 #Practice 
@@ -41,8 +44,6 @@ later you may use cnpm replace npm..
 
 ---
 
-
-
 ## General Knowlegues
 --- 
 <pre>
@@ -72,3 +73,10 @@ devDependencies  里面的插件只用于开发环境，不用于生产环境，
 --- 
 
 ## Global pacakge module config
+
+
+
+## nodejs最常见的搭配的模板引擎？
+
+
+## 基于MVVM架构设计

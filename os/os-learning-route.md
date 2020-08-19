@@ -33,8 +33,6 @@ if [ -f /etc/profile ]; then
 fi
 
 
-
-
 *删除 apt-key
 
 sudo apt-key list
@@ -60,4 +58,5 @@ sudo add-apt-repository -r ppa:user/ppa-name
 2,可以看 到 关 于 源的 文件,删除即可 
 
 
+## Ubuntu环境下如何动态切换Jdk版本
 

@@ -120,3 +120,4 @@ This guide will assist you during your initial steps with EXASOL such as setting
 
 Directly importing data from databases project:
 https://github.com/cnopens/database-migration
+

@@ -572,6 +572,75 @@ jQV9Awuc
 
 ##Dashuo Smart Screen 项目
 
+
+
+#Exasol can do what?
+
+In-memory-analytic_database.
+
+Exasol is a clustered RDBMS using a shared nothing architecture. Availability is achieved with spare nodes, like in this diagram:
+
+
+ 1. Vitual Scheme
+ 2. New Analytical Functions 
+
+
+
+Exasol workflow.
+---
+
+
+版本选择
+
+
+
+BucketFS
+
+
+
+
+
+
+
+project--空间 。。。n
+
+主要功能：
+1. 多数据源处理
+2. 数据模型处理 left ,right ,full
+3. 图表初始化
+4. 大屏资源配置：宽，高，背景，
+
+
+模块：
+数据管理
+
+	-空间接口：或者Group->
+	-大屏管理接口(数据)
+	-数据源接口
+	-模型接口
+	-数据表管理接口
+
+基础功能
+-----------
+系统设置：
+轮播接口
+角色管理接口
+用户管理
+导入导出
+空间设置->当前空间
+
+
+基础功能：
+1. 角色
+2. 用户
+3. 导入、导出（项目）--这个不一定要
+
+不可能做的：
+1. 涉及加密的
+2. license
+3. 涉及空间管理的
+
+
 20200818->数据设计->创建项目
 
 	- 初始化图元素数据（json-在项目中加载)
@@ -587,9 +656,14 @@ jQV9Awuc
 ```技术架构
 目标： 实时性，api设计，
 
-研究方向：
-1. 
-2. 
+业务研究方向：
+空间-group
+
+
+
+
+
+
 
 
 

@@ -136,3 +136,16 @@ Change :
 </build>
 
 ## Maven pom lifecycle
+
+
+## Maven plugins Version -> jDK
+
+
+
+
+## Maven plugins knowlegues
+
+1. maven-assembly-plugin (package plugin)
+
+2. maven-failsafe-plugin (failsafe实现集成测试-integrated test)
+

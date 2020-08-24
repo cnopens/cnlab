@@ -54,8 +54,10 @@
 <node CREATED="1597716327761" ID="ID_1595133553" MODIFIED="1597716412372" TEXT="&#x67b6;&#x6784;&#x5e08;&#x5185;&#x5fc3;&#x529f;&#x6cd5;">
 <icon BUILTIN="full-1"/>
 </node>
-<node CREATED="1597716336648" ID="ID_637751023" MODIFIED="1597716414363" TEXT="&#x67b6;&#x6784;&#x5e08;&#x5ba1;&#x7f8e;">
+<node CREATED="1597716336648" ID="ID_637751023" MODIFIED="1598228664370" TEXT="&#x67b6;&#x6784;&#x5e08;&#x5ba1;&#x7f8e;">
 <icon BUILTIN="full-2"/>
+<icon BUILTIN="go"/>
+<node CREATED="1598228688694" ID="ID_1177676970" MODIFIED="1598228700263" TEXT="&#x8fdb;&#x884c;"/>
 </node>
 <node CREATED="1597716343928" ID="ID_1456783151" MODIFIED="1597716416304" TEXT="&#x67b6;&#x6784;&#x5e08;&#x5fc5;&#x5907;&#x6280;&#x672f;&#x6808;">
 <icon BUILTIN="full-3"/>
@@ -66,6 +68,27 @@
 <node CREATED="1597716363560" ID="ID_1274608483" MODIFIED="1597716445701" TEXT="&#x67b6;&#x6784;&#x5e08;&#x5fc5;&#x5907;&#x5de5;&#x5177;&#x7bb1;">
 <icon BUILTIN="full-5"/>
 <icon BUILTIN="flag"/>
+<node CREATED="1598228510625" ID="ID_1743335456" MODIFIED="1598228651910" TEXT="docker">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      docker:&#22522;&#30784;&#12289;&#36827;&#38454;&#12289;&#39033;&#30446;&#23454;&#25112;&#65288;&#36827;&#34892;&#20013;)
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-1"/>
+<icon BUILTIN="go"/>
+</node>
+<node CREATED="1598228516078" ID="ID_85324450" MODIFIED="1598228569678" TEXT="k8s">
+<icon BUILTIN="full-2"/>
+</node>
+<node CREATED="1598228519469" ID="ID_1117032028" MODIFIED="1598228571602" TEXT="servicemesh">
+<icon BUILTIN="full-3"/>
+</node>
 </node>
 <node CREATED="1597716370434" ID="ID_1581276225" MODIFIED="1597716423520" TEXT="&#x6027;&#x80fd;&#x4f18;&#x5316;">
 <icon BUILTIN="full-6"/>

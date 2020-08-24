@@ -149,3 +149,11 @@ Change :
 
 2. maven-failsafe-plugin (failsafe实现集成测试-integrated test)
 
+
+## mavan Qa?
+
+1. Maven: jdk.tools:jdk.tools:1.8 报错不存在？
+
+A:
+
+

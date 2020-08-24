@@ -49,4 +49,4 @@ sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_181/
 
 jdk version Swich
 
-sudo update-alternatives –config java
+sudo update-alternatives --config java

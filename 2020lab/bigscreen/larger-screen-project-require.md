@@ -95,6 +95,12 @@ jQV9Awuc
 
 ##Sugar-app主要功能
 
+docker run :
+
+docker run --ulimit nofile=65100:65100 --restart unless-stopped -d -p 8000:8580 --name sugar -v ~/dashuo/sugar-log:/sugar-app/log --env-file env sugarbi/sugar:2.3.2
+
+
+sudo docker run --restart unless-stopped -d -p 9090:9090 --name prometheus -v /home/cnopens/data/prometheus:/data  prom/prometheus --config.file=/data/prometheus.yml
 
 
 ##Dashuo Smart Screen 项目
@@ -139,13 +145,17 @@ surgar-app:rel technology
 liblz4-java.so --> only for java compression
 jpountz->Java ports and bindings of the LZ4 compression algorithm and the xxHash hashing algorithm 
 
+sqlj.runtime ->oracle
+
+
+
+mysql :export specify database
+s
+
 
 EXAPooledConnection
 -----------------------------------------------------------------------------
 1.
-
-
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

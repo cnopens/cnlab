@@ -25,6 +25,11 @@
 
 > `采用vagrant+virtual box`
 
+vbox 资源：
+http://cloud.centos.org/centos/8/x86_64/images/
+https://vagrantcloud.com/search
+
+
 #### 1.5.1.1 下载安装vagrant
 
 ```
@@ -120,6 +125,13 @@ Windows，MacOS，Linux等
 ```
 
 #### 1.5.1.5 Vagrantfile通用写法
+
+常用images:
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/xenial64"
+end
+
+
 
 ```ruby
 # -*- mode: ruby -*-

@@ -1,0 +1,16 @@
+01-看完第一节《Docker序幕揭开篇》的内容，并且安装好docker，跑出hello-world，tomcat等之类的container
+	【不管怎么样，大家一定要在学习《Docker灵魂探讨篇》之前，拥有一个自己安装好docker的环境】
+
+02-没有用过Spring Boot的小伙伴，可以先熟悉一下Spring Boot项目如何创建
+
+03-回顾docker常见命令的操作，比如
+	docker pull	拉取镜像
+	docker run	根据某个镜像创建容器
+	-d		后台运行
+	--name		指定要创建容器的名称
+	-p		将容器的端口映射到宿主机的端口
+	docker exec -it 	进入到某个容器中
+	docker rmi 	删除image
+	docker ps		查看运行的container	
+	docker rm		删除container
+	......

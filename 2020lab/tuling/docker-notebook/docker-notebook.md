@@ -64,11 +64,6 @@ Haproxy pull
 1. docker pull haproxy
 
 
-
-
-
-
-
 HaProxy container:
 
 1. pxc container <-> 2. pxc container <-> 3. pxc container

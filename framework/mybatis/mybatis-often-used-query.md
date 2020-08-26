@@ -139,3 +139,9 @@
 　　END
 
 　　WHERE id IN (1,2,3)
+
+## mybatis pagination
+
+PageHelper.startPage(pageNum, pageSize, orderby);
+final List<Ip> list = (List<Ip>) this.ipDao.selectListbyPage(keywords);
+return (ApiPage<Ip>) ApiPage.restPage((List) list);

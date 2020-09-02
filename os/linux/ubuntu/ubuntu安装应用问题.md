@@ -29,3 +29,12 @@ sudo vmware-installer -u vmware-workstation
 Gtk-Message: Failed to load module "canberra-gtk-module"解决方案?
 安装gtk和gtk3即可
 sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+
+
+
+## Sorry,ubuntu18.04 experienced an internal error
+
+sudo apt --reinstall install signon-ui
+sudo apt --reinstall install signon-ui-x11
+sudo apt --reinstall install signon-ui-service
+sudo reboot

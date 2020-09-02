@@ -1,0 +1,11 @@
+#使用yum安装下的nginx添加模块的方法.md
+
+由于yum的方便性，有的时候我们对某些软件的安装无需特殊的需求时，通常是直接使用yum来安装软件。下面介绍的使用对使用yum安装的nginx添加新模块的方法。
+
+
+nginx添加第三方模块
+
+nginx是不支持动态的安装和新加载模块的。因此，如果使用的是yum安装了nginx,需替换成源码安装的nginx，再进行模块的添加，相当于重新编译安装了nginx。
+
+
+http://www.mamicode.com/info-detail-2959885.html

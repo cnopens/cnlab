@@ -29,3 +29,8 @@ https://www.cnblogs.com/allennote/articles/12402086.html
 
 
 Sorry,ubuntu18.04 experienced an internal error
+
+
+
+## ova 软件镜像
+https://learn.hashicorp.com/packer

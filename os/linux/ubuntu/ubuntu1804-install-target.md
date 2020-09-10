@@ -130,12 +130,6 @@ source ~/.bashrc
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_181/bin/java 300
 sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.8.0_181/bin/javac 300
 
-作者：purple_dragon
-链接：https://www.jianshu.com/p/65a5c8d9cb9a
-来源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
-
 改变这个指向呢，用到update-alternatives命令了。
 
 sudo update-alternatives –config java
@@ -215,3 +209,59 @@ https://blog.csdn.net/hzlarm/article/details/99432240
 
 
 
+## vmware15 workstation install && remove
+
+1. remove method
+
+vmware-installer -u vmware-workstation
+find / -name '*vmware*' |grep -v "/opt" | xargs rm -rf
+防止把opt下的虚拟机删掉，加上过滤
+reboot
+
+
+安装vmware 14
+由于Ubuntu 1804的内核过高，会导致安装虚拟机会报错，但是先不用管它
+
+./VMware-Workstation-Full-14.1.7.bundle --console --eulas-agreed --required -s vmware-workstation serialNumber ZC3WK-AFXEK-488JP-A7MQX-XL8YF 
+
+# xxx为序列号
+vmware-modconfig --console --install-all
+# 这个时候按照完毕后，查看网卡是发现未生成vmware 的虚拟卡的，需要去下载vm-host文件，重新编译安装虚拟网卡
+
+下载地址：https://github.com/mkubecek/vmware-host-modules
+
+vmware vmnet模块无法加载，重新配置vmnet模块
+
+wget https://github.com/mkubecek/vmware-host-modules/archive/workstation-14.1.7.tar.gz
+# 改成自己的版本号即可
+tar -xzf workstation-14.1.0.tar.gz
+cd vmware-host-modules-workstation-14.1.0
+make
+make install
+/etc/init.d/vmware status
+# 查看模块是否加载
+/etc/init./vmware start
+# 启动模块
+
+如果是虚拟机不是正常卸载，可能也会装不上，因为.so 文件没有删除，查看vmnet模块 make install ,是更改了哪些模块手动拷贝过去。
+如果模块一直为加载，将make 好的两个.ko文件拷贝至/lib/modules/5.3.0-28-generic/misc/vmmon.ko
+然后启动模块
+
+
+Workstation 14 Pro for Linux
+https://www.vmware.com/go/getworkstation-linux
+
+vmware workstation14永久激活密钥分享
+
+CG54H-D8D0H-H8DHY-C6X7X-N2KG6
+
+ZC3WK-AFXEK-488JP-A7MQX-XL8YF
+
+AC5XK-0ZD4H-088HP-9NQZV-ZG2R4
+
+ZC5XK-A6E0M-080XQ-04ZZG-YF08D
+
+ZY5H0-D3Y8K-M89EZ-AYPEG-MYUA8
+
+
+https://download3.vmware.com/software/wkst/file/VMware-Workstation-Full-14.1.7-12989993.x86_64.bundle?HashKey=9b8673db22585a6439bc3f3d9d1abbb6&params=%7B%22custnumber%22%3A%22ZCp0cCVkaCVqcA%3D%3D%22%2C%22sourcefilesize%22%3A%22439.75+MB%22%2C%22dlgcode%22%3A%22WKST-1417-LX%22%2C%22languagecode%22%3A%22en%22%2C%22source%22%3A%22DOWNLOADS%22%2C%22downloadtype%22%3A%22manual%22%2C%22eula%22%3A%22Y%22%2C%22downloaduuid%22%3A%229f84922c-0158-453f-a461-011118ea5145%22%2C%22purchased%22%3A%22N%22%2C%22dlgtype%22%3A%22Product+Binaries%22%2C%22productversion%22%3A%2214.1.7%22%2C%22productfamily%22%3A%22VMware+Workstation+Pro%22%7D&AuthKey=1599627715_7046264218b9dc1cc83eb942824f1e38

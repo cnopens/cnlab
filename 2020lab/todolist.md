@@ -34,3 +34,12 @@ Sorry,ubuntu18.04 experienced an internal error
 
 ## ova 软件镜像
 https://learn.hashicorp.com/packer
+
+镜像（ghost)
+http://www.deepinghost.com/win8/12210.html
+
+gnome-shell --version
+
+
+## 免费学习
+https://www.packtpub.com/product/django-3-by-example-third-edition/9781838981952

@@ -59,9 +59,6 @@ centos/7 CentOS 7 x64
 centos/6 CentOS 6 x64
 
 
-
-
-
 4. use case
 
 安装virtualbox，vagrant直接按照平常安装软件一样即可。
@@ -191,3 +188,30 @@ end
 $ vagrant up
 
 然后使用 oniong 账号登陆这三个虚拟机
+
+
+vagrant 手动下载
+wget https://vagrantcloud.com/hashicorp/boxes/precise64/versions/1.1.0/providers/vmware_fusion.box
+wget https://app.vagrantup.com/hashicorp/boxes/bionic64/versions/1.0.282/providers/virtualbox.box
+
+# For some reason, the downloaded filename was set to an uuid
+# mv <uuid> vmware_fusion.box
+
+vagrant box add hashicorp/precise64 vmware_fusion.box
+
+cd vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64
+
+mv 0 1.1.0
+
+echo -n "https://app.vagrantup.com/hashicorp/boxes/precise64" > metadata_url
+
+vagrant box list
+
+
+推荐链接：下载
+https://atlas.hashicorp.com/ubuntu/boxes/trusty64/versions/14.04/providers/virtualbox.box
+
+
+
+Error while connecting to libvirt: Error making a connection to libvirt URI qemu:///system?no_verify=1&keyfile=/home/cnopens/.ssh/id_rsa:
+

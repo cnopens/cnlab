@@ -32,7 +32,6 @@ vagrant global-status 	显示当前用户Vagrant的所有环境状态
 ## 快照管理：
 vagrant snapshot save init
 
-
 vagrant snapshot list
 
 命令及作用
@@ -158,3 +157,17 @@ end
 
 ## Resources
 vagrant 中文文档：http://tangbaoping.github.io/vagrant_doc_zh/v2/
+
+## vagrant package 打包自己的box镜像
+
+1、查看虚拟机名称 
+vboxmanage list vms
+2、执行打包命令
+
+vagrant自带打包命令，需要去到你的vagrant目录下，也就是vagrantFile文件目录下执行
+vagrant package –-base _default_1583637544209_19565 –-output CentOS20200119.box
+
+
+3、部署回自己的box环境
+
+将box安装到vagrant容器,vagrant box add -name xuni CentOS20200119.box

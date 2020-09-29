@@ -109,3 +109,9 @@ sudo mv info/* info_bak/        # 执行完上一步操作后会在新的info文
 sudo rm -rf info                # 把自己新建的info文件夹删掉
 sudo mv info_bak info           # 把以前的info文件夹重新改回名
 
+
+
+How to fix and prevent VirtualBox Kernel driver not installed?
+
+$ sudo apt install --reinstall virtualbox-dkms && sudo apt install libelf-dev
+$ sudo /sbin/vboxconfig

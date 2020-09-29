@@ -17,3 +17,13 @@ SonarQube
 
 Minio
 
+
+工具：
+https://github.com/kubesphere/ks-installer
+
+https://github.com/jenkinsci/kubernetes-cd-plugin
+
+
+
+jenkins 语法及脚本设计
+https://www.jenkins.io/doc/book/pipeline/syntax/

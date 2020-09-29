@@ -1,5 +1,51 @@
 #k8s-learning-note.md
 
+
+***k8s中文文档***：
+--------------
+http://www.coderdocument.com/docs/kubernetes/v1.14/tasks/access_applications_in_cluster/list_all_container_images_running_in_cluster.html
+
+##kubernetes 查看pod 的容器日志
+
+1.pod若处于运行状态，则通过kubectl logs 即可
+
+- 查看指定pod的日志
+kubectl logs <pod_name>
+kubectl logs -f <pod_name> #类似tail -f的方式查看(tail -f 实时查看日志文件 tail -f 日志文件log)
+
+- 查看指定pod中指定容器的日志
+kubectl logs <pod_name> -c <container_name>
+
+kubectl logs pod_name -c container_name -n namespace (一次性查看)
+kubectl logs -f <pod_name> -n namespace (tail -f方式实时查看)
+
+2.若pod处于init状态，则需要通过docker ps查看
+
+-获取对应的pod name
+kubectl get pods -n  namespace -o wide (STATUS是init的pod_name)
+
+-通过docker ps 获取该pod的中的CONTAINER ID
+docker ps | grep pod_name
+
+-通过docker log获取对应的日志信息
+docker logs CONTAINER_ID
+
+
+
+
+##Kubernetes中pod和容器的关系
+
+pod可以想象成一个篮子，而容器则是篮子里的鸡蛋，他们之间的关系主要变现为以下几点：
+
+    一个pod里的容器能有多少资源也取决于这个篮子的大小。
+    label也是贴在篮子上的。
+    IP分配给篮子而不是容器，篮子里面的所有容器共享这个IP。（pod是IP等网络资源的分配的基本单位，这个IP及其对应的network namespace是由pod里的容器共享的；）
+    哪怕只有一个鸡蛋（容器），Kubernetes仍然会给它分配一个篮子。
+
+pod里的容器共享network namespace，并通过volume机制共享一部分存储。
+
+
+
 ## 常用命令
 kubectl get pod -n kube-system
 
@@ -109,3 +155,5 @@ kubectl  get cm -n kube-system  -o yaml  prometheus-config
 
 查看所有容器配置：
 kubectl get cm -n kube-system
+
+

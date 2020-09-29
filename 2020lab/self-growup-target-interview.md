@@ -4,7 +4,9 @@
 -Source Code research
 
 
+## 学习资源
 
+https://medium.com
 
 
 
@@ -19,5 +21,31 @@ Note: 3种堆内存缓存算法
 
 
 
+## npm source
+
+https://developer.aliyun.com/mirror/npm/package/leo-ui/v/0.0.4
 
 
+## leoui
+
+
+
+## legoui
+https://developer.aliyun.com/mirror/npm/package/@pitrix/lego-ui
+
+
+##组件
+https://lego.loop8.io/
+
+
+
+## kubeSphere
+
+helm
+
+https://v2-1.docs.kubesphere.io/docs/zh-CN/release/release-v211/
+
+
+## 最新国外书籍源码学习
+
+https://www.packtpub.com/support/code-downloads

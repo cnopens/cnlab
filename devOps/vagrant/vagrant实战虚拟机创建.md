@@ -42,3 +42,29 @@ vagrant box add ~/Downloads/CentOS-6-x86_64-Vagrant-1707_01.VirtualBox.box --nam
 在线安装：
 vagrant box add --name centos/7
 https://github.com/tommy-muehle/puppet-vagrant-boxes/releases/download/1.1.0/centos-7.0-x86_64.box
+
+
+
+
+## 创建多个虚拟机
+
+Note: https://www.vagrantup.com/docs/multi-machine
+
+
+Multi-Machine
+
+```
+Vagrant.configure("2") do |config|
+  config.vm.provision "shell", inline: "echo Hello"
+
+  config.vm.define "web" do |web|
+    web.vm.box = "apache"
+  end
+
+  config.vm.define "db" do |db|
+    db.vm.box = "mysql"
+  end
+end
+```
+
+

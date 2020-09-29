@@ -32,9 +32,6 @@
   push      更新远程引用和相关的对象
 
 
-
-
-
 ## git tips 
 
   git commit -am "" [^RUNOOB]:one time submit
@@ -51,3 +48,12 @@
 1. git fetch --all
 2. git reset --hard origin/master
 3. git pull
+
+
+##新建项目进行远程关联操作
+
+git init
+git add ./file
+git commit -m "first commit"
+git remote add origin https://github.com/Java-Techie-jt/docker-jenkins-integration-sample.git (key)
+git push -uf origin master   -f 表示强制覆盖

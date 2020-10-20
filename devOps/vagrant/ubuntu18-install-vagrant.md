@@ -22,3 +22,7 @@ Ubuntu 15.04（https://github.com/kraksoft/vagrant-box-ubuntu/releases/download/
 
 
 
+sudo apt-get install libwbclient0=2:4.7.6+dfsg~ubuntu-0ubuntu2.20 && sudo apt-get install samba
+
+
+sudo software-properties-gtk 

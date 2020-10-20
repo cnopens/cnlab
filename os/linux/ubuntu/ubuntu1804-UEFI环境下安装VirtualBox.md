@@ -89,7 +89,7 @@ parm:           force_async_tsc:force the asynchronous TSC mode (int)
 
 sudo /usr/src/linux-headers-4.15.0-42-generic/scripts/sign-file sha256 ./FILENAME.priv ./FILENAME.der /lib/modules/4.15.0-42-generic/updates/dkms/vboxdrv.ko
 
-sudo /usr/src/linux-headers-5.4.0-48-generic/scripts/sign-file sha256 ./MODULES.priv ./MODULES.der /lib/modules/5.4.0-48-generic/updates/dkms/vboxdrv.ko
+sudo /usr/src/linux-headers-5.4.0-48-generic/scripts/sign-file sha256 ./FILENAME.priv ./FILENAME.der /lib/modules/5.4.0-48-generic/updates/dkms/vboxdrv.ko
 
 
  这里，
@@ -169,3 +169,62 @@ where: suplibOsInit what: 3 VERR_VM_DRIVER_NOT_INSTALLED (-1908) - The support d
 检查驱动
 
 ls -la /lib/modules/$(uname -r)/misc
+
+
+
+
+解决方案：
+
+https://askubuntu.com/questions/1008681/virtualbox-not-starting-after-kernel-upgrade
+
+
+sudo apt-get install ppa-purge
+sudo ppa-purge ppa:ubuntu-toolchain-r/test
+#Select gcc version 5 using update-alternatives manually
+sudo update-alternatives --config gcc
+
+
+
+sudo apt-get purge linux-headers-4.4.0-116 linux-headers-4.4.0-116-generic linux-image-4.4.0-116-generic linux-image-extra-4.4.0-116-generic linux-signed-image-4.4.0-116-generic
+
+
+
+9
+
+I was facing the same problem. After kernel upgrade my gcc version was showing as 5.4.1. Downgrading this version to 5.4.0 helped me to have retpoline for vboxdrv kernel module.
+
+Following steps from this link helped me solve my issue:
+
+sudo apt-get install ppa-purge
+sudo ppa-purge ppa:ubuntu-toolchain-r/test
+#Select gcc version 5 using update-alternatives manually
+sudo update-alternatives --config gcc
+
+After these steps gcc --version should be (Ubuntu 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609
+
+Then purge all the new linux headers (4.4.0-116)
+
+sudo apt-get purge linux-headers-4.4.0-116 linux-headers-4.4.0-116-generic linux-image-4.4.0-116-generic linux-image-extra-4.4.0-116-generic linux-signed-image-4.4.0-116-generic
+
+Again install them
+
+sudo apt-get install linux-generic linux-signed-generic
+
+Then re-install virtualbox, I installed latest virtualbox-5.2 this time, but default 5.0 version of virtualbox should also work fine.
+
+sudo apt-get purge virtualbox-dkms virtualbox virtualbox-qt
+sudo apt-get install virtualbox-5.2
+
+And, we have retpoline support in latest module
+
+anirudh@AHDRMD34579:~$ modinfo vboxdrv 
+filename:       /lib/modules/4.4.0-116-generic/misc/vboxdrv.ko
+version:        5.2.6 r120293 (0x00290000)
+license:        GPL
+description:    Oracle VM VirtualBox Support Driver
+author:         Oracle Corporation
+srcversion:     4880B21EFF1B605D6402982
+depends:        
+vermagic:       4.4.0-116-generic SMP mod_unload modversions retpoline 
+parm:           force_async_tsc:force the asynchronous TSC mode (int)
+

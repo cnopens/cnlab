@@ -10,6 +10,9 @@ customalble volume name: mysql01_vol
 docker run -d --name mysql01 -v mysql01_vol:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123.com mysql
 
 
+docker run --name nginx-test -p 8080:80 -d nginx
+
+
 ## ha cluster (pxc) percona-xtradb-cluster
 
 mysql镜像的一个封装，方便搭建pxc,强一致性高可用的集群，image-->Ha mysql 搭建 
@@ -84,3 +87,12 @@ haproxy.cfg
   9         timeout connect 5000 
  10         timeout client  50000
  11                                                  1,1           All
+
+
+
+ ## 宿主机和容器间数据拷贝
+ -------------------------------
+docker ps -a | grep kc
+
+docker cp 89f4a3cc45d9:/usr/local/tomcat/conf/context.xml . 
+

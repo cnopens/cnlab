@@ -1,7 +1,34 @@
 #self-growup-target-interview.md
 
+## tools
+
+neovim , emacs
+
+
+
+
+
 ## 学习项目
 -Source Code research
+
+https://github.com/spring-guides
+
+https://github.com/ivangfr/springboot-kong
+
+https://github.com/zppvae/zpp-springboot-parent
+
+
+
+
+
+### Groovy 
+https://www.tutorialspoint.com/groovy/index.htm
+
+
+
+
+
+
 
 
 ## 学习资源

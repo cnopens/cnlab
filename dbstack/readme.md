@@ -1,5 +1,12 @@
 # oracle basic operations 
----
+
+## Oracle system reset Password
+1、win键+R键，输入cmd，打开命令提示符。（小黑窗）
+2、输入：sqlplus /nolog
+3、输入conn /as sysdba(以超级管理员身份登录
+4、输入alter user system identified by 新密码;（修改system密码为orcl）
+5、conn system/orcl 连接数据库
+
 ## Often use ->
 添加字段的语法：alter table tablename add (字段名 number(2) not null);
 alter table tablename add (字段名 number(2),字段名 varchar2(13));

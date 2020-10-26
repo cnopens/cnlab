@@ -100,3 +100,21 @@
     WHERE T.TABLE_NAME LIKE 'PMS_WSH%'
     AND T.TABLE_NAME = P.TABLE_NAME
     GROUP BY T.TABLE_NAME, P.COMMENTS
+
+
+系统操作：
+
+oracle用户解锁语句
+
+解决过程：
+使用有alter user数据库权限的用户登陆，角色选sysdba，执行以下命令：
+解锁命令： SQL> ALTER USER 用户名 ACCOUNT UNLOCK;
+锁定用户命令：SQL> ALTER USER 用户名 ACCOUNT LOCK;
+
+
+注：登陆用户没有alter user数据库权限，使用拥有dba角色的用户登陆执行以下命令：
+SQL> grant alter user to 用户名;
+这样，对应的需要登录sqlplus的用户就可以去解锁其它用户了。直接使用具有dba角色就是的用户登陆解锁就OK了，因为dba角色拥有alter user权限。
+ 
+查看数据库中所有角色和对应权限的语句：select * from role_sys_privs;
+查看当前登陆用户拥有的角色的语句：select * from user_role_privs

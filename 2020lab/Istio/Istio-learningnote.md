@@ -18,3 +18,4 @@ CI/CD 图形化流水线提供邮件通知功能，新增多个执行条件为�
 
 安全管理：支持代码静态分析扫描以对 DevOps 工程中代码质量进行安全管理
 日志：日志完整记录 CI / CD 流水线运行全过程
+args: "--insecure-registry harbor.devops.kubesphere.local"

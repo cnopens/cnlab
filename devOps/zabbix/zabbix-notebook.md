@@ -280,7 +280,7 @@ Code:
 SELECT CONCAT('ALTER TABLE ',TABLE_SCHEMA,'.',TABLE_NAME,' CONVERT TO CHARACTER SET utf8 COLLATE utf8_bin; ')
 AS alter_sql
 FROM information_schema.TABLES
-WHERE TABLE_SCHEMA = 'zabbixdb';
+WHERE TABLE_SCHEMA = 'zabbix';
 
 - Take all the commands generated from above and run (total 146 rows for me), I did 10 at a time to not run into paste buffer problems. This step took about 1:30h for our small db (~20GB).
 
@@ -302,3 +302,19 @@ zabbixdb.trends_uint
 zabbix-agent
 zabbix-proxy
 
+
+
+
+
+开启登录问题
+https://blog.csdn.net/u012321131/article/details/78587383
+
+到软件的根目录下 执行以下脚本
+sudo ./set_ptenv.sh sudo ./set_qtenv.sh
+
+**一定按步骤走 **
+安装在默认的/opt/pt 如果因为安装在家目录而导致闪退 就重新安装在默认路径下
+
+一些依赖库
+sudo apt install libqt5scripttools5
+sudo apt-get install libqt5multimedia5-plugins

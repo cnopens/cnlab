@@ -7,5 +7,3 @@ nginx添加第三方模块
 
 nginx是不支持动态的安装和新加载模块的。因此，如果使用的是yum安装了nginx,需替换成源码安装的nginx，再进行模块的添加，相当于重新编译安装了nginx。
 
-
-http://www.mamicode.com/info-detail-2959885.html

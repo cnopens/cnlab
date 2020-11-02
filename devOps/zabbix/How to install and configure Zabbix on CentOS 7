@@ -1,0 +1,163 @@
+How to install and configure Zabbix on CentOS 7
+
+Zabbix is an open-source monitoring software used for collecting metrics from various devices and systems such as networks devices, VM systems, Linux/Windows systems, and cloud services.
+install and configure zabbix on centos
+CentOS
+Updated: December 22, 2019
+Share
+
+Zabbix is an open-source monitoring software used for collecting metrics from various devices and systems such as networks devices, VM systems, Linux/Windows systems, and cloud services. Zabbix can send notification alerts of issues in any monitored system.
+
+In this tutorial, we shall provide you a guide on installing and configuring Zabbix on CentOS system. Before that let’s take a look at the prerequisites.
+Prerequisites
+
+    Apache web server
+    PHP with required extensions
+    MySQL/ MariaDB server
+
+Installing Zabbix on CentOS
+
+Login to Terminal as root and start firing up the commands below.
+Step 1 – Disable SELinux
+
+Open SELinux configuration and edit the file:
+
+vim /etc/sysconfig/selinux
+
+Change “SELINUX=enforcing” to  “SELINUX=disabled”
+
+Save and exit the file. Then reboot the system.
+
+reboot
+
+Step 2 – Install and Configure Apache
+
+Use the following commands:
+
+yum -y install httpd
+
+check service status.
+
+systemctl status httpd.service
+
+If Apache service is not running, start it manually.
+
+systemctl start httpd.service
+
+Enable httpd service on system boot.
+
+systemctl enable httpd
+
+Step 3 – Configure Needed Repositories
+
+Install epel and remi repos.
+
+yum -y install epel-release
+
+
+yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+
+Disable PHP 5 repositories and enable PHP 7.2 repo.
+
+yum-config-manager --disable remi-php54
+
+yum-config-manager --enable remi-php72
+
+Step 4 – Install PHP
+
+yum install php php-pear php-cgi php-common php-mbstring php-snmp php-gd php-pecl-mysql php-xml php-mysql php-gettext php-bcmath
+
+Modify the PHP time Zone by editing the php.ini file.
+
+vim /etc/php.ini
+
+Uncomment the following line and add your time zone.
+
+date.timezone = Australia/Sydney
+
+Step 5 – Install MariaDB
+
+yum --enablerepo=remi install mariadb-server
+
+Start the MariaDB service.
+
+systemctl start mariadb.service
+
+Enable MariaDB on system boot.
+
+systemctl enable mariadb
+
+Run the following command to secure MariaDB.
+
+mysql_secure_installation
+
+Add a new root password and continue. Then it will ask a few questions. Type “Y” to agree to that.
+MariaDB Secure Installation
+MariaDB Secure Installation
+
+Login to DB server and verify.
+
+  mysql -u root -p
+
+Step 6 – Create a Database for Zabbix
+
+You can choose any name for the database in place of fosslinuxzabbix in the below command:
+
+Create database fosslinuxzabbix;
+
+Create a DB user and grant privileges.
+
+create user 'zabbixuser'@'localhost' identified BY '@dfEr234KliT90';
+
+grant all privileges on fosslinuxzabbix.* to zabbixuser@localhost ;
+
+Flush privileges.
+
+flush privileges;
+
+Step 7 – Install Zabbix and needed dependencies
+
+Adding Zabbix repository. Copy the latest download URL from the official website. Paste it in the below command appropriately.
+
+rpm -ivh https://repo.zabbix.com/zabbix/4.0/rhel/7/x86_64/zabbix-release-4.0-1.el7.noarch.rpm
+
+Install Zabbix.
+
+yum install zabbix-server-mysql  zabbix-web-mysql zabbix-agent zabbix-get
+
+Zabbix Installation
+Zabbix Installation
+Step 8 –  Configure Zabbix
+
+Change Time Zone by editing the Zabbix Apache configuration file.
+
+vim /etc/httpd/conf.d/zabbix.conf
+
+Uncomment the following line and add your Time Zone.
+
+php_value date.timezone Australia/Sydney
+
+PHP Parameters should look like as follows:
+
+php_value max_execution_time 300
+php_value memory_limit 128M
+php_value post_max_size 16M
+php_value upload_max_filesize 2M
+php_value max_input_time 300
+php_value max_input_vars 10000
+php_value always_populate_raw_post_data -1
+php_value date.timezone Australia/Sydney
+
+Restart HTTPD service.
+
+systemctl restart httpd.service
+
+Generally, Zabbix installation package gives SQL file which includes an initial schema and data for the Zabbix server with MySQL.
+
+Change directory and go the Zabbix directory.
+
+cd /usr/share/doc/zabbix-server-mysql-4.0.4/
+
+Import the MySQL dump file.
+
+zcat create.sql.gz | mysql -u zabbixuser -p fosslinuxzabbix

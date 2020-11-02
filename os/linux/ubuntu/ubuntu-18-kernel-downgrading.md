@@ -25,6 +25,7 @@ dpkg -l |grep linux-image
 vim /etc/default/grub
 进入grub文件
 
+
 Advanced options for Ubuntu>Ubuntu, with Linux 4.4.0-148-generic
 修改文件如上
 

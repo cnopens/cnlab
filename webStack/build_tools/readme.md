@@ -4,6 +4,14 @@
 
 ### webpack rollup gulp grunt  ->构件工具 自动化，工程化
 
+1. grunt 
+
+创建Gruntfile.js
+
+
+
+
+
 ### 怎么分析，性能优化有一定的了解
 
 ### cross platform technolgy

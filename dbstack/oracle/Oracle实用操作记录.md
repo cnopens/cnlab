@@ -118,3 +118,30 @@ SQL> grant alter user to 用户名;
  
 查看数据库中所有角色和对应权限的语句：select * from role_sys_privs;
 查看当前登陆用户拥有的角色的语句：select * from user_role_privs
+
+
+java.sql.SQLException: ORA-28001: 密碼已經屆滿?
+
+解决周期问题
+
+oracle创建用户默认有180天密码过期的限制；
+1、sqlplus /nolog
+2、conn /as sysdba
+3、查看用户所属的文件夹
+
+SELECT username, PROFILE FROM dba_users;
+1
+在这里插入图片描述
+4、查看此文件下
+
+SELECT * FROM dba_profiles s WHERE s.profile='DEFAULT' AND resource_name = 'PASSWORD_LIFE_TIME';
+1
+在这里插入图片描述
+5、修改为密码周期为不限制；
+
+alter profile default limit password_life_time unlimited;
+1
+在这里插入图片描述
+6、如果已经提示：java.sql.SQLException: ORA-28001: 口令已经失效这样的错误，还需要修改一下密码，改为本密码就可以。
+
+alter user 用户名 identified by 旧密码;

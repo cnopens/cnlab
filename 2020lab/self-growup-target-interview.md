@@ -18,6 +18,22 @@ https://github.com/ivangfr/springboot-kong
 https://github.com/zppvae/zpp-springboot-parent
 
 
+- Cloud platform Practice
+
+https://github.com/uit-plus
+
+
+
+
+- Important Practice
+
+一个涵盖六个专栏：Spring Boot 2.X、Spring Cloud、Spring Cloud Alibaba、Dubbo、分布式消息队列、分布式事务的仓库。希望胖友小手一抖，右上角来个 Star，感恩 1024
+
+https://github.com/sunqiuxiang/SpringBoot-Labs
+
+
+
+
 
 
 

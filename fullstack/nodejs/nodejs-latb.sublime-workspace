@@ -11,15 +11,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/cnopens/www/nodelab/src/eventloop/main.js",
-			"settings":
-			{
-				"buffer_size": 372,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -67,10 +58,15 @@
 	[
 		"/home/cnopens/www/nodelab",
 		"/home/cnopens/www/nodelab/src",
-		"/home/cnopens/www/nodelab/src/eventloop"
+		"/home/cnopens/www/nodelab/src/common",
+		"/home/cnopens/www/nodelab/src/common/eventloop",
+		"/home/cnopens/www/nodelab/src/common/filesys",
+		"/home/cnopens/www/nodelab/src/mvc"
 	],
 	"file_history":
 	[
+		"/media/cnopens/DevWspace/Worklog/项目数据库工作日志.md",
+		"/home/cnopens/www/nodelab/src/eventloop/main.js",
 		"/home/cnopens/workspace/cnlab/fullstack/nodejs/nodejs-latb.sublime-project",
 		"/home/cnopens/www/nodelab/src/app.js",
 		"/home/cnopens/www/nodelab/README.md",
@@ -196,12 +192,11 @@
 		"/media/cnopens/BackUp/gitCenter/cnlab/devOps/maven/mavenTips.md",
 		"/media/cnopens/BackUp/gitCenter/cnlab/os/linux/os-linux操作系统管理.md",
 		"/media/cnopens/BackUp/gitCenter/cnlab/os/linux/ubuntu/ubuntu1804-install-target.md",
-		"/media/cnopens/BackUp/gitCenter/cnlab/os/linux/ubuntu/redis-install-config.md",
-		"/media/cnopens/BackUp/gitCenter/cnlab/devOps/maven/maven-settings.xml-config.md"
+		"/media/cnopens/BackUp/gitCenter/cnlab/os/linux/ubuntu/redis-install-config.md"
 	],
 	"find":
 	{
-		"height": 51.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -215,6 +210,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"oracle/oradata",
+			"ENMOEDU",
+			"/u01/app"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -222,6 +220,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"oradata",
+			"DSIC",
+			"/opt/oracle"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -232,43 +233,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/cnopens/www/nodelab/src/eventloop/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 372,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								62,
-								62
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 51.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -305,7 +277,7 @@
 	"project": "nodejs-latb.sublime-project",
 	"replace":
 	{
-		"height": 98.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -343,7 +315,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 350.0,
+	"side_bar_width": 368.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

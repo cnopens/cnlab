@@ -37,3 +37,11 @@ Linux下查看网关方法：
 
     more /etc/sysconfig/network-scripts/ifcfg-eth0 Red Hat
 ```
+
+
+linux vs win :Ping返回结果不同
+
+
+
+nmap检测
+ncat 

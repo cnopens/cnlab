@@ -1,5 +1,37 @@
 # career-really-forget-leave.md
 
+## focus on the ability
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## focus career jobs
 

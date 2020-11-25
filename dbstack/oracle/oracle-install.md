@@ -44,3 +44,26 @@ select status from v$istance
 
 
 
+## En vars
+
+[root@oracledb ~] vim /home/oracle/.bash_profile
+export ORACLE_BASE=/ora/oracle
+export ORACLE_HOME=$ORACLE_BASE/product/11.2.0/db_1
+export ORACLE_SID=orcl
+export ORACLE_TERM=xterm
+export PATH=$ORACLE_HOME/bin:/usr/sbin:$PATH
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
+export NLS_LANG=AMERICAN_AMERICA.ZHS16GBK
+
+
+## database instance create
+
+
+###12c
+https://www.cnblogs.com/zyxnhr/p/11789306.html
+
+###11g
+
+1. 修改初始化穿件init.ora
+2. 创建文件夹
+

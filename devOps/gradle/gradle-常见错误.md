@@ -41,3 +41,23 @@ meecrowave {
     httpPort = 9090
     // most of the meecrowave core configuration
 }
+
+
+## Could not find org.junit.jupiter:junit-jupiter:.
+
+
+
+
+## config wrapper 
+
+Modifty the gradle/gradle-wrapper.properties
+
+Windows:
+
+distributionUrl=file\:/d:/gradle-2.2.1-all.zip
+linux:
+
+distributionUrl=file\:/tmp/gradle-2.2.1-all.zip
+
+
+192.168.31.33

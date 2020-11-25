@@ -16,7 +16,6 @@ Character: 看看开源和商业版的区别
 
 
 
-
 NOTE: Inclusion in this list does not guarantee that the project is officially supported by Exasol. Please view the Readme of the various projects to see if it is officially supported or not.
 
 ## Practice -> Related Projects

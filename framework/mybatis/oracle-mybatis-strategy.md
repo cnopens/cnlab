@@ -1,5 +1,30 @@
 #oracle-mybatis-strategy.md
 
+oracle mybatis 批量插入和mysql差异
+
+batch insert
+---
+  <insert id="batchInsert" parameterType="java.util.List" useGeneratedKeys="false">
+    insert into DSI_VM_DEPLOY_LOG_SUBTASK(STAGE_ID,SUBJECT,RESULT,STATUS,CREATE_TIME,CONSUME_TIME,ID,UPDATE_TIME)
+    VALUES
+    <foreach collection="list" item="item" separator="union all"> <!--mysql ,-->
+      (#{item.stageId}, #{item.subject},#{item.result},#{item.status},#{item.createTime},#{item.consumeTime},#{item.id},#{item.updateTime})
+    </foreach>
+  </insert>
+
+batch update
+---
+
+ <update id="batchBatch" parameterType="java.util.List">
+    update DSI_VM_DEPLOY_LOG_SUBTASK
+    <foreach collection="list" item="item" separator="union all">
+      select #{item.stageId}, #{item.subject},#{item.result},#{item.status},#{item.createTime},#{item.consumeTime},#{item.id},#{item.updateTime} from dual
+    </foreach>
+    where STAGE_ID = #{stageId,jdbcType=VARCHAR}
+  </update>
+
+
+
 ---
 *Mybatis3全注解开发配置及主键生成策略总结
 

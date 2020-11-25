@@ -1,3 +1,20 @@
+
+##架构 
+
+https://github.com/WuFengXue/android-blog-post
+
+
+
+##可以学学
+http://www.coding10.com/post/sublime-sidebar-font-size-line-height
+
+
+
+
+
+
+
+
 markdown : image,table
 
 ansible&docker&jenkins tutorials:
@@ -20,8 +37,6 @@ https://www.tutorialspoint.com/devops_tutorials.htm
 工具：
 
 https://www.json2yaml.com/
-
-
 
 
 

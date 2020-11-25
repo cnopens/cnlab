@@ -1,9 +1,12 @@
 ## ubuntu安装应用问题.md
 
 
+##ubuntu1804 settings丢失问题
+sudo apt-get install --reinstall --purge gnome-control-center
 
 
-workstation安装:
+
+##workstation安装:
 
 
 0 将VMware的 .bundle 文件放在当前用户的根目录下（和桌面同级）。
@@ -12,13 +15,10 @@ workstation安装:
 
 sudo chmod +x VMware-Workstation-Full-14.1.1-7528167.x86_64.bundle
 
-    1
 
 2 安装
 
 sudo ./VMware-Workstation-Full-14.1.1-7528167.x86_64.bundle
-
-    1
 
 3 卸载
 

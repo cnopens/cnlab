@@ -157,3 +157,40 @@ Change :
 A:
 
 
+
+
+## 开发配置类
+
+### Tomcat嵌入式配置
+<plugins>
+    <!-- 指定jdk1.7编译，否则maven update 可能调整jdk -->
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+            <source>1.7</source>
+            <target>1.7</target>
+            <encoding>UTF-8</encoding>
+        </configuration>
+    </plugin>
+    <!-- tomcat7插件。使用方式：tomcat7:run -->
+    <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+            <update>true</update>
+            <port>8080</port>
+            <uriEncoding>UTF-8</uriEncoding>
+            <server>tomcat7</server>
+            <!-- tomcat虚拟映射路径 -->
+            <staticContextPath>/store</staticContextPath>
+            <staticContextDocbase>d:/file/store/</staticContextDocbase>
+            <contextReloadable>false</contextReloadable>
+            <useTestClasspath>true</useTestClasspath>
+        </configuration>
+    </plugin>
+</plugins>
+
+### 其他类型

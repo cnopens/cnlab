@@ -72,6 +72,9 @@ method2:
 
 
 
+
+
+
 ## setttings.xml config
 
 mvn install:install-file -Dfile=/home/cnopens/workspace/lib/ojdbc16-12.1.0.1.jar -DgroupId=com.oracle -DartifactId=ojdbc16 -Dversion=12.1.0.1 -Dpackaging=jar

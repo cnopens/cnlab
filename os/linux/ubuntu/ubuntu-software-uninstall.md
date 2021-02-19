@@ -89,9 +89,7 @@ sudo smbpasswd -a penguin
 sudo /etc/init.d/smbd restart
 
 
-
-
-Ubuntu 18.04安装Charles 
+## Ubuntu 18.04安装Charles 
 
 wget -q -O - https://www.charlesproxy.com/packages/apt/PublicKey | sudo apt-key add -
 sudo sh -c 'echo deb https://www.charlesproxy.com/packages/apt/ charles-proxy main > /etc/apt/sources.list.d/charles.list'
@@ -101,3 +99,11 @@ sudo apt install charles-proxy
 
 Registered Name: https://zhile.io
 License Key: 48891cf209c6d32bf4
+
+
+## ubuntu1804 update软件失败解决步骤
+
+1，执行-f dist-upgrade
+2，执行apt --fix-broken install
+3，再执行apt-get update
+4，最后执行apt-get upgrade

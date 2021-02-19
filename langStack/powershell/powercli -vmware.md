@@ -54,3 +54,6 @@ VMware.PowerCLI现在已安装完成，可以连接到您的vCenter Server或ESX
 Set-PowerCLIConfiguration -InvalidCertificateAction "Ignore"
 
 
+
+虚拟机执行远程调用脚本：
+Invoke-VMScript -VM "ServerName" -ScriptType Powershell -ScriptText ("ScriptPath") -GuestCredentials (Get-Credential)

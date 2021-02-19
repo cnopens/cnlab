@@ -46,17 +46,27 @@ sudo add-apt-repository ppa:user/ppa-name
 
 添加好更新一下： sudo apt-get update
 
-
 删除命令格式则为：
-
 sudo add-apt-repository -r ppa:user/ppa-name
-
 或者
-
 1,到 源的 目 录:cd  /etc/apt/sources.list.d/
-
 2,可以看 到 关 于 源的 文件,删除即可 
-
 
 ## Ubuntu环境下如何动态切换Jdk版本
 
+
+## Linux common cmds
+
+1. user->group operation
+
+groups shiyanlou
+
+方法二：查看 /etc/group 文件
+$ cat /etc/group | sort
+$ cat /etc/group | grep -E "shiyanlou"   -E:排除
+$ groups lilei
+$ sudo usermod -G sudo lilei
+$ groups lilei
+然后你再切换回 lilei 用户，现在就可以使用 sudo 获取 root 权限了。
+
+$ sudo deluser lilei --remove-home

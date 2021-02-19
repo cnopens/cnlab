@@ -45,3 +45,6 @@ linux vs win :Ping返回结果不同
 
 nmap检测
 ncat 
+
+java.net.InetAddress;
+

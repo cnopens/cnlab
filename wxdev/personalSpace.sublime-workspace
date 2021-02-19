@@ -1,0 +1,344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lay",
+				"layer1"
+			],
+			[
+				"ind",
+				"indent_top_level"
+			],
+			[
+				"sha",
+				"shadow_offset"
+			],
+			[
+				"even",
+				"eventHandler"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"PackageReso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/cnopens/DevWspace/personalSpace"
+	],
+	"file_history":
+	[
+		"/media/cnopens/DevWspace/personalSpace/labcode/Springboot使用线程池.md",
+		"/media/cnopens/DevWspace/personalSpace/linux-shell.md",
+		"/media/cnopens/DevWspace/personalSpace/frontend.md",
+		"/media/cnopens/DevWspace/personalSpace/README.md",
+		"/media/cnopens/DevWspace/personalSpace/iaas-platform-backend/README.md",
+		"/home/cnopens/workspace/cnlab/wxdev/README.md",
+		"/media/cnopens/DevWspace/Worklog/工作日志记录-ds.md",
+		"/home/cnopens/workspace/cnlab/network/ssl/ssl-basic-knowlegues.md",
+		"/home/cnopens/workspace/cnlab/2020lab/bigdata/Top Big Data Developer Skills You Need to Master.md",
+		"/home/cnopens/workspace/cnlab/network/wss-vs-ws-practice.md",
+		"/home/cnopens/workspace/cnlab/architecture/现代项目架构设计核心技术.md",
+		"/home/cnopens/Desktop/qa.md",
+		"/home/cnopens/.config/sublime-text-3/Packages/Theme - Default/adaptive/Adaptive.sublime-theme",
+		"/home/cnopens/.config/sublime-text-3/Packages/User/PackageResourceViewer.sublime-settings",
+		"/home/cnopens/.config/sublime-text-3/Packages/PackageResourceViewer/README.md",
+		"/home/cnopens/workspace/cnlab/projectResearch/局域网Ip检测应用.md",
+		"/home/cnopens/workspace/cnlab/framework/junit/JUnit 5 vs JUnit 4.md",
+		"/home/cnopens/Desktop/charts.json",
+		"/home/cnopens/workspace/cnlab/2020lab/vipTrip.md",
+		"/home/cnopens/workspace/cnlab/dbstack/oracle/Oracle-触发器知识点.md",
+		"/home/cnopens/workspace/cnlab/dbstack/oracle/oracle-dev-base.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu安装应用问题.md",
+		"/home/cnopens/workspace/cnlab/2020lab/bigscreen/Exasol-Rela-project.md",
+		"/home/cnopens/workspace/cnlab/2020lab/bigscreen/oracle-性能及高可用设计.md",
+		"/home/cnopens/workspace/cnlab/2020lab/libvirt/Libvirt-architectrue.md",
+		"/home/cnopens/workspace/cnlab/devOps/docker/Getting Started With MongoDB As A Docker Container.md",
+		"/home/cnopens/workspace/cnlab/devOps/jenkins/jenkins-get-start.md",
+		"/home/cnopens/workspace/cnlab/devOps/k8s/gupao-notebook/02-工欲善其事必先利其器/课堂源码/Vagrantfile",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/vagrant-qa.md",
+		"/home/cnopens/workspace/cnlab/devOps/jenkins/Jenkins集成SonarQube-Scanner.md",
+		"/home/cnopens/workspace/cnlab/devOps/k8s/k8s-learning-note.md",
+		"/home/cnopens/workspace/cnlab/devOps/k8s/k8s-install-guide.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/vagrant实战虚拟机创建.md",
+		"/home/cnopens/workspace/cnlab/devOps/k8s/gupao-notebook/readme.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/Vagrant相关配置.md",
+		"/home/cnopens/Downloads/jenkins1.yaml",
+		"/home/cnopens/Downloads/jenkins-casc-config.kubesphere-devops-system-upate.configmap.yaml",
+		"/home/cnopens/workspace/cnlab/2020lab/Istio/Istio-learningnote.md",
+		"/home/cnopens/workspace/cnlab/2020lab/Istio/KubeSphere-source-notebook.md",
+		"/home/cnopens/workspace/cnlab/2020lab/tuling/docker-notebook/docker-notebook.md",
+		"/home/cnopens/workspace/cnlab/cloudcomputing/cloudcomputing-base-knowlegue.md",
+		"/home/cnopens/workspace/cnlab/cloudcomputing/cloud-architectrue-project-research.md",
+		"/home/cnopens/workspace/cnlab/os/linux/常用工具汇总.md",
+		"/home/cnopens/workspace/cnlab/2020lab/sourceCode-Analyse/SourceAnalysis-Task.md",
+		"/home/cnopens/workspace/cnlab/webStack/build_tools/readme.md",
+		"/home/cnopens/workspace/cnlab/2020lab/Istio/kubesphere-dev-notebook.md",
+		"/home/cnopens/workspace/cnlab/devOps/sonarqube/sonarqube-learning-notebook.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu18.04-install-virutalbox.md",
+		"/home/cnopens/workspace/cnlab/devOps/k8s/alertmanager/alertmanager-manual.md",
+		"/home/cnopens/workspace/cnlab/os/linux/tools/fiddler/fiddler-usage.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu-software-uninstall.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/vagrant-manual.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/vgrant命令学习.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/virtualbox解决文件挂载问题.md",
+		"/home/cnopens/workspace/cnlab/devOps/ansible/devops-ansible-notebook.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu1804-install-workstation14.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/Vagrantfile",
+		"/home/cnopens/workspace/cnlab/2020lab/bigscreen/larger-screen-project-require.md",
+		"/home/cnopens/workspace/cnlab/2020lab/todolist.md",
+		"/home/cnopens/workspace/cnlab/devOps/ansible/ansible+vagrant-notebook.md",
+		"/home/cnopens/workspace/cnlab/devOps/k8s/gupao-notebook/02-工欲善其事必先利其器/上课课件/学员整理优化的步骤/学员-兵兵-整理优化的步骤[大家也可以作为参考].md",
+		"/home/cnopens/workspace/cnlab/webStack/typescript/#TypeScript-Resource-LearningNote.md",
+		"/home/cnopens/workspace/cnlab/webStack/typescript/quick-start.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu-18-kernel-downgrading.md",
+		"/home/cnopens/workspace/cnlab/os/linux/xargs-command.md",
+		"/home/cnopens/workspace/cnlab/devOps/virtualbox/virutalbox common question.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/ubuntu18-install-vagrant.md",
+		"/home/cnopens/workspace/cnlab/career/career-really-forget-leave.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu1804-UEFI环境下安装VirtualBox.md",
+		"/home/cnopens/workspace/cnlab/webStack/npm-yarn-etc-常见问题.md",
+		"/home/cnopens/workspace/cnlab/network/ensp/ensp-华为网络设备配置学习笔记.md",
+		"/home/cnopens/workspace/cnlab/architecture/数据中台-数据服务方向研究.md",
+		"/home/cnopens/workspace/cnlab/2020lab/self-growup-target-interview.md",
+		"/home/cnopens/workspace/cnlab/webStack/vue/vue-dev-notebook.md",
+		"/home/cnopens/workspace/cnlab/webStack/vue/vue-focus-sides.md",
+		"/home/cnopens/workspace/cnlab/2020lab/vmware/vmware-sdk-api-relation.md",
+		"/home/cnopens/workspace/cnlab/dbstack/mysql/mariadb.md",
+		"/home/cnopens/workspace/cnlab/devOps/nginx/CentOS7-yum-nginxandphp7.2.md",
+		"/home/cnopens/workspace/cnlab/devOps/zabbix/How to install and configure Zabbix on CentOS 7",
+		"/home/cnopens/workspace/cnlab/devOps/zabbix/zabbix-notebook.md",
+		"/home/cnopens/workspace/cnlab/devOps/snmp/snmp-network-notebook.md",
+		"/home/cnopens/workspace/cnlab/langStack/php/php-qs-notebook.md",
+		"/home/cnopens/workspace/cnlab/devOps/kafak/kafka-leaning.md",
+		"/home/cnopens/workspace/cnlab/devOps/nginx/使用yum安装下的nginx添加模块的方法.md",
+		"/home/cnopens/workspace/cnlab/2020lab/openjdk/jdk各个版本研究.md",
+		"/home/cnopens/workspace/cnlab/2020lab/dataservice/数据中台-数据服务方向研究.md",
+		"/home/cnopens/workspace/cnlab/2020lab/openjdk/jdk-relation-qa.md",
+		"/home/cnopens/workspace/cnlab/dbstack/oracle/Oracle实用操作记录.md",
+		"/home/cnopens/workspace/cnlab/2020lab/现代项目架构设计核心技术.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu1804-证书管理问题.md",
+		"/home/cnopens/workspace/cnlab/dbstack/readme.md",
+		"/home/cnopens/workspace/cnlab/devOps/git/git-often-use.md",
+		"/home/cnopens/workspace/cnlab/devOps/vagrant/vagrant使用三种网络配置.md",
+		"/home/cnopens/Downloads/jenkins.yaml",
+		"/home/cnopens/Downloads/jenkins-casc-config.kubesphere-devops-system.configmap (copy).yaml",
+		"/home/cnopens/Downloads/jenkins-casc-config.kubesphere-devops-system.configmap.yaml",
+		"/home/cnopens/workspace/cnlab/2020lab/terraform/learning-notebook.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu1804-install-target.md",
+		"/home/cnopens/workspace/cnlab/os/VMware workstation-registerSNO.md",
+		"/home/cnopens/workspace/cnlab/framework/spark/spark-learningnote.md",
+		"/home/cnopens/workspace/cnlab/framework/swagger/swagger-tutorial/readme.md",
+		"/home/cnopens/workspace/cnlab/framework/swagger/swagger-learning-note.md",
+		"/home/cnopens/workspace/cnlab/framework/mybatis/mybatis-often-used-query.md",
+		"/home/cnopens/workspace/cnlab/dbstack/mysql/mysql-tips.md",
+		"/home/cnopens/workspace/cnlab/2020lab/tuling/docker-notebook/docker-common-usage-commands.md",
+		"/home/cnopens/workspace/cnlab/technical-focus/devtools-chain.md",
+		"/home/cnopens/workspace/cnlab/2020lab/gupao3/gupao3vip-notebook.md",
+		"/home/cnopens/workspace/cnlab/2020lab/bigscreen/vertix/vertix-react-application-dev-notebook.md",
+		"/home/cnopens/workspace/cnlab/devOps/docker/prometheus-docker-usage.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/java-db-connection-methods.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/jar-dev-rel-resources-record.md",
+		"/home/cnopens/workspace/cnlab/fullstack/vertx/vertx-quickstart.md",
+		"/home/cnopens/workspace/cnlab/2020lab/bi-focus/bi-application-focus.md",
+		"/home/cnopens/workspace/cnlab/devOps/maven/create-self-maven-scafold.md",
+		"/home/cnopens/workspace/cnlab/os/os-learning-route.md",
+		"/home/cnopens/workspace/cnlab/os/linux/linux-sys-manage-comands-usage.md",
+		"/home/cnopens/workspace/dss/export.json",
+		"/home/cnopens/workspace/cnlab/2020lab/readbook-plan/book-resources-list.md",
+		"/home/cnopens/workspace/cnlab/devOps/maven/mavenTips.md",
+		"/home/cnopens/workspace/cnlab/technical-focus/focus-git-farmous-cow.md",
+		"/home/cnopens/workspace/cnlab/langStack/java/tool-class/java-LZ4-compression-HC-decompresssion.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu18-best-practice-dynamic-switch.md",
+		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/jdk-version-switch.md",
+		"/home/cnopens/workspace/cnlab/devOps/maven/#maven-package-methods.md",
+		"/home/cnopens/.m2/settings.xml",
+		"/home/cnopens/workspace/dss/virtual-schemas-master/pom.xml",
+		"/home/cnopens/workspace/cnlab/worklog/202006.md",
+		"/home/cnopens/workspace/cnlab/langStack/go/OctoSQL-Streaming.md"
+	],
+	"find":
+	{
+		"height": 71.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 71.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "personalSpace.sublime-project",
+	"replace":
+	{
+		"height": 138.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

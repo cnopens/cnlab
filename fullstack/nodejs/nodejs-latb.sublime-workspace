@@ -196,7 +196,7 @@
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -240,7 +240,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 33.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -277,7 +277,7 @@
 	"project": "nodejs-latb.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -57,3 +57,46 @@ git add ./file
 git commit -m "first commit"
 git remote add origin https://github.com/Java-Techie-jt/docker-jenkins-integration-sample.git (key)
 git push -uf origin master   -f 表示强制覆盖
+
+
+常见问题：
+
+1. Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set?
+
+git init
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+
+ 新建本地仓库，同步远程仓场景，出现git branch --set-upstream-to=origin/master master 解决方法
+
+1.本地创建一个本地仓库 
+2.关联远程端:
+git remote add origin git@github.com:用户名/远程库名.git
+3.同步远程仓库到本地
+git pull
+这个时候会报错
+If you wish to set tracking information for this branch you can do so with:
+git branch --set-upstream-to=origin/<branch> master
+再按提示执行
+git branch --set-upstream-to=origin/master master
+继续报错
+fatal: branch 'master' does not exist
+原因:
+本地仓没有在master上所以报错了
+解决:
+4.在本地仓切换到master
+git checkout master
+那么刚刚同步的文件就出来了
+
+这里实际远程端的其他分支也同步了下来的了，但是git branch 不会展示出来
+直接 git checkout 分支名 就可以直接切过去了
+
+后记---dreamy说的
+这里如果 使用 15 .git clone git@github.com:用户名/ --克隆远程仓 那么master 和分支 都会展示出来
+
+实际: 试了也是一样的 git branch 也是看不到 分支，但是实际也是下载下来了

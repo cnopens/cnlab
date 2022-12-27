@@ -11,3 +11,19 @@ final变量可以安全的在多线程环境下进行共享，而不需要额外
 
 ```
 
+
+## basic kb
+
+```
+//产生随机数
+Random random = new Random();// 定义随机类
+Integer mid = random.nextInt(cameraIndex) + 1;// 得到[1,X)集合
+
+//随机排序
+hql.append(" order by dbms_random.value() ")
+注意：复制出去后空格键会有问题，需将空格处删除重输
+
+```
+
+
+## docker-componse usage

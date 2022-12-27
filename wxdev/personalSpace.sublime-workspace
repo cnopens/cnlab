@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"e",
+				"enable"
+			],
+			[
 				"lay",
 				"layer1"
 			],
@@ -23,6 +27,60 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "#frontend.md\n\nvue启动项目报sockjs-node错误?\n\nue启动后报错。分析大致原因是公司内网络策略限制，在启动vue项目时访问了一个内网ip，访问不到\n\n 解决办法：vue.config.js中devServer里面添加下面这端。其中ip通过cmd输入ipconfig查看\n\n devServer{\nhost:'0.0.0.0',\npublic:'',\nport: 9001,\nhttps: false,\ndisableHostCheck: true,\nopen: false\nproxy:''\n}\n\n\n\n\nvue3下\n\n　　vue.config.js中　　\n　　　　devServer: {\n　　　　　　host: '0.0.0.0',\n　　　　　　port: 8080,\n　　　　　　proxy: {\n　　　　　　　　'/': {\n　　　　　　　　　　target: 'http://127.0.0.1:8080/',\n　　　　　　　　　　changeOrigin: true,\n　　　　　　　　　　pathRewrite: {\n　　　　　　　　　　　　'^/': ''\n　　　　　　　　　　},\n　　　　　　　　　　 ws: false\n　　　　　　　　}\n　　　　　　}\n　　　　}\n\n\n\n",
+			"file": "/media/cnopens/DevWspace/personalSpace/frontend.md",
+			"file_size": 931,
+			"file_write_time": 132536921692985049,
+			"settings":
+			{
+				"buffer_size": 560,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#practice-projects.md\n\n\n1. https://github.com/cnopens/gs-spring-boot\n\n\n## data structure and algrithm\n\nOCR loadbalance ress\n\n大文件队列问题\n\nprocessing bar 问题为什么没有了\n\n\n",
+			"file": "/media/cnopens/DevWspace/personalSpace/practice-projects.md",
+			"file_size": 71,
+			"file_write_time": 132614213717725248,
+			"settings":
+			{
+				"buffer_size": 160,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\ntitle: File-net-io-stream.md\ncategories:\n  - read\ndate: 2021-07-15 12:50:37\ntags:\n---\n# File net io stream tips\n\n1. recover corrupted word file?,checking word bad..\n\n\n",
+			"file": "/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/File-net-io-stream-md.md",
+			"file_size": 170,
+			"file_write_time": 132707983300861321,
+			"settings":
+			{
+				"buffer_size": 171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "1. ",
+			"settings":
+			{
+				"buffer_size": 3,
+				"line_ending": "Unix",
+				"name": "1."
+			}
+		},
+		{
+			"contents": "---\ntitle: Springboot-basic-learning-note\ncategories:\n  - spring\ndate: 2021-04-16 14:45:17\ntags: springboot\n---\n\n# Springboot-basic-learning-note\n\n## What should you know about the knowlegues of springboot \n\n### Version Diff\n1. 1.x vs 2.x etc difference\n\n```\nSpringBoot 2基于Spring5和JDK8，而Spring 1x则用的是降低版本，带来的为可能是你的应用服务必须支持JDK8。\nMVC部分，有些定制类改动了，比如WebMvcConfiguer,由抽象类改为接口，这是因为JDK8对接口有新的支持形式，统一错误处理，基类AbstarctErrorController也改动非常大。MVC里的视图渲染Freemaker视图解析器也有改动，默认情况下，它会自动加上ftl来来寻找模板。\nJPA中，findById 返回了一个Optional对象，改动较大，会直接影响所有业务代码。\nAcutator，本章SpringBoot1.x和2变化较大，默认情况，不再启用所有监控，另外编写自己监控信息，完全需要重写，HealthIndicator，EndPoint 变化很大。\nSpring Security Oauth2合并到Spring Security中。\nTomcat 8.5或更高版本。\n```\n\n### Usage \n\n### Annotation\n\n1. @EnableWebSecurity func\n\n``` \nload the WebSecurityConfiguration class, config the security and authentication policy;\nload the AuthenticationConfiguration, config the authentication info;\n\n```\n2. lombok Annotation\n\n```\n@EqualsAndHashCode(callSupper = true) -> Application scenarios : entity extend .\n\n```\n\n",
+			"file": "/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Springboot-basic-learning-note.md",
+			"file_size": 1439,
+			"file_write_time": 132649099038018278,
+			"settings":
+			{
+				"buffer_size": 1023,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -92,10 +150,54 @@
 	],
 	"file_history":
 	[
-		"/media/cnopens/DevWspace/personalSpace/labcode/Springboot使用线程池.md",
-		"/media/cnopens/DevWspace/personalSpace/linux-shell.md",
-		"/media/cnopens/DevWspace/personalSpace/frontend.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Linux-Ubuntu-Knowleges-Note.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/about/index.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/readme.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Technology-Management.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Springboot-ldap-integration-and-method-of-usage-notebook.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/K8s-review-summary-lab-note.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Springboot-KB-NoteRecord.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Gradle-usage-qa-note.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/hobby/index.md",
 		"/media/cnopens/DevWspace/personalSpace/README.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Ide-develop-tools-tips.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Network-practice-LearningNote.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/goland-how-to-dev-go.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Python-practice-target-task.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Go-the-Practice-Room-of-Project.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Dbeaver-driver-manager.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Springboot-basic-learning-note.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/discorvery-learning-stars-projects-md.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Github-Important-Project.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Python-utility-tool-Fabric-Note-md.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Periodic-algorithm-practice.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/My-New-Life.md",
+		"/media/cnopens/DevWspace/personalSpace/k8s-readme.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/JDK-jvm-notepad.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/plan/index.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Front-end-tools-KbNote.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/My-Frequently-Used-Resources.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Git-notebook.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Focus-FrontEnd-Project-labroom.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Devops-Automation-Deploy-Research-Note-md.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/themes/volantis/_config.yml",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/db.json",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/_config.yml",
+		"/media/cnopens/DevWspace/personalSpace/practice-projects.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/My-favorite-assistive-tools.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/My-Best-love-Data-engineer-2021.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Mixedcloud-Knowleges-note-md.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Learning-Record-EveryDay-md.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Java-interview-Learning.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Java-common-knowlegue-collections.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Hexo-Frequently-Used-Knowlegues-Note.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Back-end-tools-KbNote.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Project-Management.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/scaffolds/post.md",
+		"/media/cnopens/DevWspace/personalSpace/linux-shell.md",
+		"/media/cnopens/DevWspace/personalSpace/localBlog/source/categories/index.md",
+		"/media/cnopens/DevWspace/personalSpace/labcode/Springboot使用线程池.md",
+		"/media/cnopens/DevWspace/personalSpace/frontend.md",
 		"/media/cnopens/DevWspace/personalSpace/iaas-platform-backend/README.md",
 		"/home/cnopens/workspace/cnlab/wxdev/README.md",
 		"/media/cnopens/DevWspace/Worklog/工作日志记录-ds.md",
@@ -175,55 +277,11 @@
 		"/home/cnopens/workspace/cnlab/devOps/snmp/snmp-network-notebook.md",
 		"/home/cnopens/workspace/cnlab/langStack/php/php-qs-notebook.md",
 		"/home/cnopens/workspace/cnlab/devOps/kafak/kafka-leaning.md",
-		"/home/cnopens/workspace/cnlab/devOps/nginx/使用yum安装下的nginx添加模块的方法.md",
-		"/home/cnopens/workspace/cnlab/2020lab/openjdk/jdk各个版本研究.md",
-		"/home/cnopens/workspace/cnlab/2020lab/dataservice/数据中台-数据服务方向研究.md",
-		"/home/cnopens/workspace/cnlab/2020lab/openjdk/jdk-relation-qa.md",
-		"/home/cnopens/workspace/cnlab/dbstack/oracle/Oracle实用操作记录.md",
-		"/home/cnopens/workspace/cnlab/2020lab/现代项目架构设计核心技术.md",
-		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu1804-证书管理问题.md",
-		"/home/cnopens/workspace/cnlab/dbstack/readme.md",
-		"/home/cnopens/workspace/cnlab/devOps/git/git-often-use.md",
-		"/home/cnopens/workspace/cnlab/devOps/vagrant/vagrant使用三种网络配置.md",
-		"/home/cnopens/Downloads/jenkins.yaml",
-		"/home/cnopens/Downloads/jenkins-casc-config.kubesphere-devops-system.configmap (copy).yaml",
-		"/home/cnopens/Downloads/jenkins-casc-config.kubesphere-devops-system.configmap.yaml",
-		"/home/cnopens/workspace/cnlab/2020lab/terraform/learning-notebook.md",
-		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu1804-install-target.md",
-		"/home/cnopens/workspace/cnlab/os/VMware workstation-registerSNO.md",
-		"/home/cnopens/workspace/cnlab/framework/spark/spark-learningnote.md",
-		"/home/cnopens/workspace/cnlab/framework/swagger/swagger-tutorial/readme.md",
-		"/home/cnopens/workspace/cnlab/framework/swagger/swagger-learning-note.md",
-		"/home/cnopens/workspace/cnlab/framework/mybatis/mybatis-often-used-query.md",
-		"/home/cnopens/workspace/cnlab/dbstack/mysql/mysql-tips.md",
-		"/home/cnopens/workspace/cnlab/2020lab/tuling/docker-notebook/docker-common-usage-commands.md",
-		"/home/cnopens/workspace/cnlab/technical-focus/devtools-chain.md",
-		"/home/cnopens/workspace/cnlab/2020lab/gupao3/gupao3vip-notebook.md",
-		"/home/cnopens/workspace/cnlab/2020lab/bigscreen/vertix/vertix-react-application-dev-notebook.md",
-		"/home/cnopens/workspace/cnlab/devOps/docker/prometheus-docker-usage.md",
-		"/home/cnopens/workspace/cnlab/langStack/java/java-db-connection-methods.md",
-		"/home/cnopens/workspace/cnlab/langStack/java/jar-dev-rel-resources-record.md",
-		"/home/cnopens/workspace/cnlab/fullstack/vertx/vertx-quickstart.md",
-		"/home/cnopens/workspace/cnlab/2020lab/bi-focus/bi-application-focus.md",
-		"/home/cnopens/workspace/cnlab/devOps/maven/create-self-maven-scafold.md",
-		"/home/cnopens/workspace/cnlab/os/os-learning-route.md",
-		"/home/cnopens/workspace/cnlab/os/linux/linux-sys-manage-comands-usage.md",
-		"/home/cnopens/workspace/dss/export.json",
-		"/home/cnopens/workspace/cnlab/2020lab/readbook-plan/book-resources-list.md",
-		"/home/cnopens/workspace/cnlab/devOps/maven/mavenTips.md",
-		"/home/cnopens/workspace/cnlab/technical-focus/focus-git-farmous-cow.md",
-		"/home/cnopens/workspace/cnlab/langStack/java/tool-class/java-LZ4-compression-HC-decompresssion.md",
-		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/ubuntu18-best-practice-dynamic-switch.md",
-		"/home/cnopens/workspace/cnlab/os/linux/ubuntu/jdk-version-switch.md",
-		"/home/cnopens/workspace/cnlab/devOps/maven/#maven-package-methods.md",
-		"/home/cnopens/.m2/settings.xml",
-		"/home/cnopens/workspace/dss/virtual-schemas-master/pom.xml",
-		"/home/cnopens/workspace/cnlab/worklog/202006.md",
-		"/home/cnopens/workspace/cnlab/langStack/go/OctoSQL-Streaming.md"
+		"/home/cnopens/workspace/cnlab/devOps/nginx/使用yum安装下的nginx添加模块的方法.md"
 	],
 	"find":
 	{
-		"height": 71.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -237,6 +295,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"EqualsAndHashCode",
+			" \n",
+			"首页",
+			"博客",
+			"主页",
+			"首页",
+			"源码",
+			"about",
+			"avatar",
+			"<img",
+			"<img src",
+			"theme.avatar",
+			"avoscloud.com",
+			"valine:",
+			"lang",
+			"favicon.ico",
+			"language:",
+			"theme",
+			"themes",
+			"volantis"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -254,14 +332,155 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/media/cnopens/DevWspace/personalSpace/frontend.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/media/cnopens/DevWspace/personalSpace/practice-projects.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/File-net-io-stream-md.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"auto_name": "1.",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/media/cnopens/DevWspace/personalSpace/localBlog/source/_posts/Springboot-basic-learning-note.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 312.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 71.0
+		"height": 35.0
 	},
 	"input":
 	{
@@ -298,7 +517,7 @@
 	"project": "personalSpace.sublime-project",
 	"replace":
 	{
-		"height": 138.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -336,7 +555,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 309.0,
+	"side_bar_width": 455.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

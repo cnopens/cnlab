@@ -7,4 +7,22 @@ https://blog.csdn.net/weixin_33991418/article/details/91823749
 
 ## springboot必会只是
 
-1.     @EnableCaching  
+1. @EnableCaching  
+
+
+nmap -p 4351 10.26.0.18
+
+我们可以使用nmap来扫描端口UDP 可以使用下面的命令来看看
+
+nmap -sU 10.26.0.18 -p 4351 -Pn
+
+2. ldap integration
+
+data manage 
+
+## devops ->docker
+
+
+
+
+## 

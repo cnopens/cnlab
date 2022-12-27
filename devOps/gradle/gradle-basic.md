@@ -70,3 +70,17 @@ buildscript {
 	}
 }
 apply plugin: 'org.springframework.boot'
+
+
+
+## gradle 常见命令
+
+
+
+/**
+* @ClassName: ${NAME}
+* @Description: function desc
+* @Author cnopens
+* @Date ${DATE} ${TIME}
+* @Copyright ? Dashuo
+**/

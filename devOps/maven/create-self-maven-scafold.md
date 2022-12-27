@@ -37,6 +37,8 @@ archetype:crawl
 
 搜索并更新仓库中的archetype.
 
+执行命令：mvn archetype:create-from-project，在target目录会成
+
 
 ##创建archetype
 
@@ -45,7 +47,7 @@ archetype:crawl
 git clone https://github.com/allennotes/webserver
 
     在项目根目录下执行,与主pom.xml的同级目录
-
+1
 mvn archetype:create-from-project 
 
 将生产的target目录移动到我们需要的目录打开gitbash进行如下操作

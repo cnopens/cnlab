@@ -6,6 +6,36 @@ neovim , emacs
 
 
 
+## linux basic
+
+awk
+
+
+
+
+## ansible ，vagrant
+
+
+## k8s cluster
+
+
+
+## springcloud 、dubbo，go-micro
+
+
+
+## source-analyse
+
+
+
+## datas tructure vs agorialthm
+
+
+
+
+
+
+
 
 
 ## 学习项目
